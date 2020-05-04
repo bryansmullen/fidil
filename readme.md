@@ -6,6 +6,12 @@ An Irish Music Resource
 
 There are already Irish Traditional Music resources available online, however, many of them take time and effort to navigate. Fidil's focus is on simplicity, so that it is instantly accessible and intuitive to even the first time user.
 
+## Important Links
+
+- [Wireframes](https://xd.adobe.com/view/ddf5e229-2703-4fcc-4d65-98d347cce994-abc4/?fullscreen)
+- [Prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/?fullscreen)
+- [Deployed Site](#)
+
 ---
 
 ## Preface
@@ -90,7 +96,7 @@ Next the brand is designed. This involves the creation of a [logo](#), compiling
 
 The development phase will use only the technologies covered in the course up until the point of Milestone Project One. These include HTML and CSS only, extended by the Bootstrap 4 library. There will be no custom Javascript or other technologies included for this release. The only exception is the use of elements within Bootstrap 4 which have pre programmed javascript/jquery behaviour, which may be utilised.
 
-Once these design choices are made, a working high fidelity [prototype](#) is constructed complete with all copy, imagery, fonts, colors, and interactions included, which is subsequently tested to verify effectiveness before development commences.
+Once these design choices are made, a working high fidelity [prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/?fullscreen) is constructed complete with all copy, imagery, fonts, colors, and interactions included, which is subsequently tested to verify effectiveness before development commences.
 
 ### 2.2. Development
 
