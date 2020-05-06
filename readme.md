@@ -6,12 +6,6 @@ An Irish Music Resource
 
 There are already Irish Traditional Music resources available online, however, many of them take time and effort to navigate. Fidil's focus is on simplicity, so that it is instantly accessible and intuitive to even the first time user.
 
-## Important Links
-
-- [Wireframes](https://xd.adobe.com/view/ddf5e229-2703-4fcc-4d65-98d347cce994-abc4/?fullscreen)
-- [Prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/?fullscreen)
-- [Deployed Site](#)
-
 ---
 
 ## Preface
@@ -96,7 +90,7 @@ Next the brand is designed. This involves the creation of a [logo](#), compiling
 
 The development phase will use only the technologies covered in the course up until the point of Milestone Project One. These include HTML and CSS only, extended by the Bootstrap 4 library. There will be no custom Javascript or other technologies included for this release. The only exception is the use of elements within Bootstrap 4 which have pre programmed javascript/jquery behaviour, which may be utilised.
 
-Once these design choices are made, a working high fidelity [prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/?fullscreen) is constructed complete with all copy, imagery, fonts, colors, and interactions included, which is subsequently tested to verify effectiveness before development commences.
+Once these design choices are made, a working high fidelity [prototype](#) is constructed complete with all copy, imagery, fonts, colors, and interactions included, which is subsequently tested to verify effectiveness before development commences.
 
 ### 2.2. Development
 
@@ -113,7 +107,7 @@ Development phase goals
 
 The development phase uses only the technologies covered in the course up until the point of Milestone Project One. These consist of HTML and CSS, extended by the Bootstrap 4 library. There will be no custom Javascript or other technologies included for this release. The only exception is the use of elements within Bootstrap 4 which have pre programmed javascript/jquery behaviour, which may be utilised.
 
-The completed prototype is then annotated to show where containers, rows, columns, and other structural coding components will be. This is visible in the [red-line drawing](#).
+The completed prototype is then annotated to show where containers, rows, columns, and other structural coding components will be. This is visible in the [annotated spec file](pre-production/spec/fidil_annotated_spec.pdf).
 
 Once completed the [index.html](#) file is created taking care to copy & paste all available copy so as not to risk typographical erros, and thereafter the [style.css](#) file is created to style the page to match the specification, using Bootstrap where appropriate.
 
@@ -174,43 +168,60 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 ### 5.1. Test Process
 
-All HTML and CSS in this project is validated by using the [W3C Markup Validation Service](https://validator.w3.org/) and the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+Testing is carried out at three phases to evaluate the prototypes functionality, the intuitiveness of the design, and finally verify the functionality of the final product.
+
+Further to this, all HTML and CSS in this project is validated by using the [W3C Markup Validation Service](https://validator.w3.org/) and the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
 > Validation was completed on {**Insert date of validation here**}
 
-User testing took place at two specific points during the production. First, at the design stage, the prototype was tested using unmoderated testing to verify that all user goals could be achieved. Second, the finished website was tested using unmoderated testing to verify that the final product behaved as expected.
+### 5.2. Tests Conducted
 
-### 5.2. Test Insights
+#### 5.2.1. Prototype Functionality Tests
 
-The following was observed from the testing.
+The function of these tests is to verify all links in the prototype lead to the expected locations, so that it is possible to proceed with testing the layout with a new user.
 
-> **FILL THIS IN WITH DATA LATER**
+[Prototype functionality tests](https://we.tl/t-lNyKGpBiHT)
 
-Results of the user testing are available here:
-[Prototype Test 1](#)
-[Prototype Test 2](#)
-[Prototype Test 3](#)
-[Finished Project Test 1](#)
-[Finished Project Test 2](#)
-[Finished Project Test 3](#)
+####5.2.2. Prototype Design Tests
 
-> In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The function of these tests is to ensure the design choices have resulted in an intuitive layout that facilitates first time learning and ease of locating the desired information.
 
-> Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+The following tasks were set to the user to ensure intuitive layout:
 
-> For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+- Find the name of a common dance style listed on the page.
+- Locate information about the Bodhran on the site.
+- Find the name of one important collector in irish music history.
+- From the same section as the previous task, find where it states what genres irish music has had and influence on in music history.
+- Find the link to get in touch with the developer through linkedin (the link will not currently click through).
+- Return to the home page from any other page.
 
-> 1. Contact form:
-> 1. Go to the "Contact Us" page
-> 1. Try to submit the empty form and verify that an error message about the required fields appears
-> 1. Try to submit the form with an invalid email address and verify that a relevant error message appears
-> 1. Try to submit the form with all inputs valid and verify that a success message appears.
+[Prototype design tests](https://we.tl/t-akHu55OIfG)
 
-> In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### 5.2.3. Finish Project Tests
 
-> You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+[Finished Project Tests](#)
 
-> If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### 5.3. Test Insights
+
+The following insights were gained from the testing process.
+
+#### 5.3.1. Prototype Functionality Insights
+
+- Fidil Logo will lead to home page on all pages, not possible in prototype.
+- Hover and click states of all links to be consistent - light color for hover, dark color for click.
+- "Read More" button should have micro interaction for hover and click states.
+- Modal can be closed in multiple ways, this will be retained.
+- External LinkedIn & Github links will be functioning in final developed website.
+- Images require standardisation across all layouts at respective resolutions and sizes.
+- Bodhran photo to be corrected on phone layout.
+- Font size on modals to be reduced on phone layout.
+
+#### 5.3.2. Prototype Design Insights
+
+- Home link not working on web history page, this will be fixed on developed website.
+- Bodhran image has once again reverted to incorrect image on phone layout. Flagged to be fixed.
+- Tendancy for people to go first to header for contact link, then footer. This will be accepted to separate primary navigation from secondary.
+- One user reported scrolling to be arduous in their browser, will consider adding a "back to top" button in development.
 
 ---
 
@@ -248,6 +259,7 @@ The photos used in this site were obtained from:
   - Sarah Photo by Annie Spratt on Unsplash
   - James Photo by Andrea Piacquadio from Pexels
   - User Profile Template from Bring Your Own Laptop UX/UI Design Course Files
+- Content imagery licensed from [Shutterstock](https://www.shutterstock.com/) under their standard license.
 
 ### 7.3. Acknowledgements
 
@@ -256,3 +268,5 @@ I received inspiration for this project from:
 - [Irish Traditional Music Archive](https://www.itma.ie/)
 - [The Session](https://thesession.org/tunes)
 - [Online Academy of Irish Music](https://www.oaim.ie/)
+
+Thanks to David, Gillian, and Patricio for help in the testing stages.
