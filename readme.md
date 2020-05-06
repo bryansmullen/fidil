@@ -29,12 +29,17 @@ This is a live working document based on a recommended template. As such, some s
    4.3. Other Tools
 5. Testing
    5.1. Test Process
-   5.2. Test Insights
+   5.2. Tests Conducted
+   5.2.1. Prototype Functionality Tests
+   5.2.2. Prototype Design Tests
+   5.2.3. Finish Project Tests
+   5.3. Test Insights
+   5.3.1. Prototype Functionality Insights
+   5.3.2. Prototype Design Insights
 6. Deployment
 7. Credits
    7.1. Content
    7.2. Media
-   7.2.1. Pre-production User Profile
    7.3. Acknowledgements
 
 ---
@@ -245,9 +250,20 @@ This project is deployed on Github Pages, which can be accessed at [Fidil Github
 
 ### 7.1. Content
 
-This readme file was based on content provided by [Code Institute](https://codeinstitute.net/)
+The text content from the website was copied from Wikipedia
+[Home Instruments Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+[Home Dances Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+[Home History Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+[Fiddle](https://en.wikipedia.org/wiki/Irish_fiddle)
+[Uilleann Pipes](https://en.wikipedia.org/wiki/Uilleann_pipes)
+[Bodhran](https://en.wikipedia.org/wiki/Bodhr%C3%A1n)
+[Jigs](https://en.wikipedia.org/wiki/Jig)
+[Reels](<https://en.wikipedia.org/wiki/Reel_(dance)>)
+[Hornpipes](https://en.wikipedia.org/wiki/Hornpipe)
+[History 1](https://en.wikipedia.org/wiki/Irish_traditional_music)
+[History 2](https://en.wikipedia.org/wiki/Irish_traditional_music)
 
-> - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+This readme file was based on content provided by [Code Institute](https://codeinstitute.net/)
 
 ### 7.2. Media
 
@@ -259,7 +275,15 @@ The photos used in this site were obtained from:
   - Sarah Photo by Annie Spratt on Unsplash
   - James Photo by Andrea Piacquadio from Pexels
   - User Profile Template from Bring Your Own Laptop UX/UI Design Course Files
-- Content imagery licensed from [Shutterstock](https://www.shutterstock.com/) under their standard license.
+- Content imagery licensed from [Shutterstock](https://www.shutterstock.com/) under their standard license. The images with the following ID numbers have been licensed:
+  - 667984198
+  - 667984201
+  - 1430859554
+  - 761648701
+  - 219680854
+  - 574147108
+  - 258054788
+  - 752652976
 
 ### 7.3. Acknowledgements
 
