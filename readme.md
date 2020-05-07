@@ -265,6 +265,8 @@ The text content from the website was copied from Wikipedia
 
 This readme file was based on content provided by [Code Institute](https://codeinstitute.net/)
 
+The svg pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
+
 ### 7.2. Media
 
 The photos used in this site were obtained from:
