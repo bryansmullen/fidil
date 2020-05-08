@@ -11,9 +11,10 @@
     --fidil-neutral-grey: #707070;
     --fidil-black: #000000;
 
-    --fidil-h2: normal 32px century-gothic;
+
+    --fidil-h2: normal 48px century-gothic;
     --fidil-h3: bold 32px century-gothic;
-    --fidil-nav-item: bold 16px century-gothic;
+    --fidil-nav-item: bold 20px century-gothic;
     --fidil-body: normal 16px minion-pro;
 
 }
@@ -77,8 +78,8 @@ h3 {
 body {
     font: var(--fidil-body);
     color: var(--fidil-black);
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 32px;
 }
 
 .hero-image {
@@ -157,9 +158,18 @@ body {
     align-items: center;
 }
 
+.button:hover {
+    background-color: var(--fidil-light-red);
+    transition: 1s ease-in-out;
+}
+
+
 .button p {
     margin: 0;
     grid-column-start: 1;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 16px;
 }
 
 .icon {
@@ -171,8 +181,9 @@ body {
 }
 
 
+
 footer {
-    background-color: var(--fidil-orange);
+    background-color: var(--fidil-light-red);
     height: 40vh;
     display: flex;
     justify-content: space-between;
