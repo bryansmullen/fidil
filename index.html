@@ -11,19 +11,18 @@
     <!-- Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/hmk0dts.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-grid.css">
 
     <title>Fidil</title>
 </head>
 
 <body>
 
-
-    <!-- Header & Nav bar -->
+    <!-- Header -->
     <header>
         <nav class="navbar navbar-expand-lg p-0">
-            <a class="navbar-brand m-0 p-0" href="./index.html"><img src="./assets/img/web/web_fidil_logo_large.svg"
-                    alt="Fidil logo" height="56px"></a>
+            <a class="navbar-brand m-0 p-0" href="./index.html"><img id="brand"
+                    src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil logo" height="56px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,23 +46,18 @@
         </nav>
     </header>
 
+    <!-- Hero Content -->
+    <div class="hero">
+        <div class="hero-background"><span>&nbsp</span></div>
+        <div class="hero-logo"><img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo">
+            <h2>The Irish Music Resource</h2>
+        </div>
 
-    <!-- Logo -->
-    <div class="logo hero-gradient">
-        <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo">
-        <h2>The Irish Music Resource</h2>
     </div>
+    <div class="hero-image"><img src="./assets/img/web/web_boxes@2x.jpg" alt="boxes"></div>
+    <!-- Main Content -->
 
-
-
-    <!-- Hero Image -->
-    <img src="./assets/img/web/web_boxes.jpg" alt="Two men playing accordions" class="hero-image">
-
-
-
-    <!-- Card Content -->
-    <div class="content content-gradient">
-        <svg class="pattern" width="100%" height="100%">
+    <main><svg class="pattern" width="100%" height="100%">
             <defs>
                 <pattern id="logo-wallpaper" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
                     <path fill="#ffffff"
@@ -75,8 +69,7 @@
             </defs>
             <rect x="0" y="0" width="100%" height="100%" fill="url(#logo-wallpaper)"></rect>
         </svg>
-        <div class="cards"></div>
-        <div class="card-container">
+        <div class="card-container no-gutters">
             <div class="card">
                 <img src="./assets/img/web/web_bodhrad_small@2x.jpg" alt="">
                 <h3>Instruments</h3>
@@ -89,13 +82,10 @@
                     Irish music world in the late 1960s.
                 </p>
                 <div class="button-row">
-                    <a href="#">
-                        <div class="button">
-                            <p>Read More</p>
-                            <div class="icon">
-                                <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
-                            </div>
-                        </div>
+                    <a href="#" class="button">
+                        <div class="red"></div>
+                        <p>Read More</p>
+                        <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
                     </a>
                 </div>
             </div>
@@ -111,13 +101,10 @@
                     border of Cork and Kerry, in the south of Ireland.
                 </p>
                 <div class="button-row">
-                    <a href="#">
-                        <div class="button">
-                            <p>Read More</p>
-                            <div class="icon">
-                                <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
-                            </div>
-                        </div>
+                    <a href="#" class="button">
+                        <div class="red"></div>
+                        <p>Read More</p>
+                        <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
                     </a>
                 </div>
             </div>
@@ -133,36 +120,33 @@
                     cities such as Chicago.
                 </p>
                 <div class="button-row">
-                    <a href="#">
-                        <div class="button">
-                            <p>Read More</p>
-                            <div class="icon">
-                                <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
-                            </div>
-                        </div>
+                    <a href="#" class="button">
+                        <div class="red"></div>
+                        <p>Read More</p>
+                        <img src="./assets/img/web/icon_arrow.svg" height="16px" width="16px" alt="">
                     </a>
                 </div>
 
 
             </div>
         </div>
-    </div>
-    </div>
-
+    </main>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-links my-auto">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">
-                Contact
-            </button>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#aboutModal">
-                About
-            </button>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#" data-toggle="modal" data-target="#contactModal">
+                    Contact
+                </a>
+                <a href="#" type="button" data-toggle="modal" data-target="#aboutModal">
+                    About
+                </a>
+            </div>
+            <a href="./index.html">
+                <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
+            </a>
         </div>
-        <a href="./index.html">
-            <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
-        </a>
     </footer>
 
 

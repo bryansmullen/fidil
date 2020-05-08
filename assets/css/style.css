@@ -10,193 +10,243 @@
     --fidil-light-grey: #909090;
     --fidil-neutral-grey: #707070;
     --fidil-black: #000000;
-
-
-    --fidil-h2: normal 48px century-gothic;
-    --fidil-h3: bold 32px century-gothic;
-    --fidil-nav-item: bold 20px century-gothic;
-    --fidil-body: normal 16px minion-pro;
-
 }
 
 html {
     background-color: var(--fidil-orange);
 }
 
+img {
+    max-width: 100%;
+
+}
+
+header,
+main,
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1366px 1fr;
+}
 
 header {
+    padding-top: 16px;
+    padding-bottom: 16px;
     background-color: var(--fidil-light-blue);
-    display: grid;
-    grid-template-columns: 1fr 3fr 3fr 1fr;
-    height: 10vh;
+    grid-column: 1 span3;
     border-bottom: 2px solid var(--fidil-dark-blue);
 }
 
 nav {
     grid-column-start: 2;
-    grid-column-end: span 2;
-    background-color: transparent;
 }
-
-
 
 nav a {
     color: var(--fidil-white);
-    font: var(--fidil-nav-item);
-    margin-left: 30px;
+    margin-left: 32px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
-.logo {
-    background-color: var(--fidil-light-blue);
-    text-align: center;
-    height: 90vh;
-    width: 100%;
-    display: grid;
-    align-content: center;
-    justify-content: center;
-
+nav a:hover {
+    color: var(--fidil-orange);
 }
 
-.hero-gradient {
-    background-image:
-        linear-gradient(var(--fidil-light-blue), var(--fidil-black));
+svg:hover {
+    color: var(--fidil-orange)
 }
 
 h2 {
-    font: var(--fidil-h2);
-    color: white;
+    color: var(--fidil-white);
+    text-align: center;
+    font-family: century-gothic;
+    font-size: 48px;
 }
 
 h3 {
-    font: var(--fidil-h3);
     color: var(--fidil-light-red);
     text-transform: uppercase;
-    font-size: 24px;
+    font-weight: bold;
+    font-family: century-gothic;
+    font-size: 32px;
 }
 
-body {
-    font: var(--fidil-body);
+
+p {
     color: var(--fidil-black);
+    font-family: minion-pro;
     font-size: 16px;
     line-height: 32px;
 }
 
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1366px 1fr;
+    grid-template-rows: 100vh;
+    justify-items: center;
+    overflow: hidden;
+}
+
+.hero-logo {
+    grid-row: 1;
+    grid-column-start: 2;
+    align-self: center;
+}
+
+.hero-logo img {
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-background {
+    grid-row: 1;
+    grid-column: 1 / span 3;
+    background-image:
+        linear-gradient(var(--fidil-light-blue), var(--fidil-black));
+    min-width: 100%;
+}
+
 .hero-image {
-    width: 100vw;
+    grid-row: 2;
+    grid-column: 1 / span 3;
+
 }
 
-
-.content {
-    position: relative;
-}
-
-.content-gradient {
+main {
+    grid-column: 2 / span 1;
     background-image:
         linear-gradient(var(--fidil-black), var(--fidil-light-blue));
+    color: white;
+    position: relative;
 
-}
-
-.pattern {
-    mix-blend-mode: overlay;
-    height: 100%;
-    position: absolute;
 }
 
 .card-container {
     display: flex;
-    width: 74%;
-    margin: 0 auto;
     flex-wrap: wrap;
+    grid-column-start: 2;
     justify-content: space-between;
+    margin: 120px 0;
 }
 
 .card {
-    width: 32%;
+    width: 440px;
     text-align: center;
-    margin: 200px 0;
-    border: none;
-    border-radius: 0;
     display: grid;
-    grid-template-rows: auto auto auto 50px 32px;
-    grid-template-columns: 10% auto 10%;
-}
-
-.card h3 {
-    padding-top: 24px;
-    grid-column-start: 2;
+    align-content: flex-start;
+    grid-template-rows: 354px auto auto 50px 32px;
+    grid-template-columns: 10% 1fr 1fr 10%;
+    border-radius: 0;
 }
 
 .card img {
-    width: 100%;
-    grid-column-start: 1;
-    grid-column-end: span 3;
-
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 4;
 }
 
-.card p {
-    grid-column-start: 2;
+.card h3 {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 2;
+    margin-top: 16px;
 }
 
-.button-row {
-    grid-column-start: 2;
-    justify-self: right;
+.card>p {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 2;
+    height: 400px;
 }
 
-
-.button {
+.card .button-row {
+    grid-row: 4 / span 1;
+    grid-column: 3 / span 1;
     background-color: var(--fidil-orange);
-    height: 100%;
-
-    color: white;
-    font: var(--fidil-nav-item);
-    text-transform: uppercase;
-
-    width: 180px;
+    width: 200px;
     display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
 }
 
-.button:hover {
-    background-color: var(--fidil-light-red);
-    transition: 1s ease-in-out;
+.card .button {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 160px 40px;
+    align-items: center;
+    position: relative;
 }
+
+.button .red {
+    height: 100%;
+    grid-column: 2 / span 1;
+    background: var(--fidil-light-red);
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.button:hover>.red {
+    grid-column: 1/ span 2;
+}
+
+.button-row a {
+    text-decoration: none;
+}
+
 
 
 .button p {
+    grid-column: 1/span 1;
+    color: var(--fidil-white);
+    font-family: century-gothic;
     margin: 0;
-    grid-column-start: 1;
-    font-weight: normal;
-    text-transform: none;
-    font-size: 16px;
+    z-index: 2;
+
 }
 
-.icon {
-    grid-column-start: 2;
-    background-color: var(--fidil-light-red);
+.button img {
+    grid-column: 2 / span 1;
+    z-index: 2;
+}
+
+
+
+.pattern {
+    grid-column: 1 / span 3;
     height: 100%;
-    display: grid;
-    align-items: center;
+    position: absolute;
+    mix-blend-mode: overlay;
 }
 
 
 
 footer {
     background-color: var(--fidil-light-red);
-    height: 40vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 13% 0 13%;
-    flex-wrap: wrap;
-    border-top: 2px solid var(--fidil-light-red);
+    align-content: center;
+    padding: 120px 0;
+    border: solid 2px var(--fidil-dark-red);
 }
 
+.footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
 
-footer a {
-    font: var(--fidil-nav-item);
+.footer-content {
+    grid-column: 2/span 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer-content a {
     color: var(--fidil-white);
+    font-family: century-gothic;
     text-transform: uppercase;
-    margin-right: 30px;
+    font-weight: bold;
+    margin-right: 48px;
+
+}
+
+.footer-content a:hover {
+    color: var(--fidil-dark-blue);
+    text-decoration: none;
 }
