@@ -625,6 +625,10 @@ span {
         margin: 0;
     }
 
+    .card>p {
+        height: 480px;
+    }
+
     footer {
         display: block;
     }
@@ -632,6 +636,8 @@ span {
     .footer-content {
         justify-content: center;
     }
+
+
 
     .footer-links {
         width: 100%;
@@ -643,5 +649,22 @@ span {
 
     .footer-links a {
         margin: 32px;
+    }
+
+    .nav-item {
+        text-align: center;
+        font-size: 32px;
+        font-weight: normal;
+        border-top: 2px solid var(--fidil-dark-blue);
+        padding: 16px 0 16px 0;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    .navbar-collapse {
+        margin-top: 16px;
+        ;
     }
 }
