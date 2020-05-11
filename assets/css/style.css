@@ -492,6 +492,87 @@ span {
 
 @media only screen and (max-width: 1366px) {
 
+    header,
+    main,
     footer {
+        display: grid;
+        grid-template-columns: 1fr 788px 1fr;
     }
+
+
+    .card {
+        width: 386px;
+        margin-top: 32px;
+    }
+
+    .secondary-card-container {
+        width: 788px;
+    }
+
+    .secondary-card {
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 96px 580px 50px;
+        margin-bottom: 48px;
+    }
+
+    .secondary-card img {
+        position: relative;
+        height: 100%;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .secondary-card h3 {
+        grid-row: 2;
+        grid-column: 1;
+        margin: auto auto 0 auto;
+        padding: 0;
+    }
+
+    .secondary-card>p {
+        grid-row: 3;
+        grid-column: 1;
+        padding: 0 100px;
+        margin: auto;
+
+    }
+
+    .secondary-card .button-row {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+
+    .button-row p {
+        grid-row: 1;
+
+    }
+
+    .history-card {
+        grid-template-columns: 1fr;
+    }
+
+    .history-card-images {
+        grid-column: 1;
+        grid-template-rows: 1fr;
+        grid-row: 1;
+    }
+
+    .history-card-content {
+        grid-row: 2;
+        margin-bottom: 48px;
+
+    }
+
+    .history-card h3 {
+        padding: 48px 0 32px 0;
+    }
+
+    .secondary-image {
+        display: none;
+    }
+
+    .primary-image {}
+
+    footer {}
 }
