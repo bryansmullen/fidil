@@ -576,3 +576,72 @@ span {
 
     footer {}
 }
+
+
+@media only screen and (max-width: 788px) {
+    header {
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+    }
+
+    nav.navbar {
+        justify-content: center;
+        grid-column: 1;
+        justify-content: space-around;
+    }
+
+    header,
+    main,
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .hero img {
+        width: 50%;
+    }
+
+    .hero h2 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+    .hero-logo {
+        grid-column: 1;
+        width: 100vw;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .card-container {
+        margin: 0;
+    }
+
+    footer {
+        display: block;
+    }
+
+    .footer-content {
+        justify-content: center;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 40px;
+        justify-content: space-between;
+        display: block;
+        text-align: center;
+    }
+
+    .footer-links a {
+        margin: 32px;
+    }
+}
