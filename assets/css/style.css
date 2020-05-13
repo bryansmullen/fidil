@@ -1,4 +1,7 @@
-/* COLOR PALETTE & FONT STYLES */
+/* === DEFAULTS === */
+
+/* COLOR PALETTE VARIABLES - USE THESE VARIABLES IN PLACE OF HEX CODE THROUGHOUT TO ALLOW EASY ADJUSTMENT LATER */
+
 :root {
     --fidil-dark-blue: #0378A6;
     --fidil-light-blue: #04B2D9;
@@ -12,6 +15,8 @@
     --fidil-black: #000000;
 }
 
+/* GLOBAL LAYOUT STYLES - SET CANVAS COLOUR, MIN SIZE, AND MAX IMG SIZE */
+
 html {
     background-color: var(--fidil-orange);
 }
@@ -22,62 +27,31 @@ body {
 
 img {
     max-width: 100%;
-
 }
 
-header,
-main,
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1366px 1fr;
+/* GLOBAL TYPOGRAPHY STYLES - SITE WIDE DEFAULTS */
+
+h2,
+h3,
+.nav-item {
+    font-family: century-gothic, arial, sans-serif;
 }
 
-/* HEADER STYLES */
-
-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
-    background-color: var(--fidil-light-blue);
-    grid-column: 1 span3;
-    border-bottom: 2px solid var(--fidil-dark-blue);
-}
-
-nav {
-    grid-column-start: 2;
-}
-
-nav a {
-    color: var(--fidil-white);
-    margin-left: 32px;
+h3,
+.nav-item {
     text-transform: uppercase;
-    font-weight: bold;
 }
-
-nav a:hover {
-    color: var(--fidil-orange);
-}
-
-svg:hover {
-    color: var(--fidil-orange)
-}
-
-/* GENERAL FONT STYLES */
 
 h2 {
     color: var(--fidil-white);
-    text-align: center;
-    font-family: century-gothic;
     font-size: 48px;
 }
 
 h3 {
     color: var(--fidil-light-red);
-    text-transform: uppercase;
     font-weight: bold;
-    font-family: century-gothic;
     font-size: 32px;
 }
-
 
 p {
     color: var(--fidil-black);
@@ -86,9 +60,124 @@ p {
     line-height: 32px;
 }
 
+.nav-item {
+    font-size: 20px;
+}
 
-/* HOME PAGE STYLES */
-.hero {
+/* === MOBILE FIRST STYLES === */
+
+/* HEADER & NAVBAR POSITIONING & COLOR */
+
+header {
+    padding: 16px 0;
+    background-color: var(--fidil-light-blue);
+    border-bottom: 2px solid var(--fidil-dark-blue);
+}
+
+nav.navbar {
+    justify-content: space-around;
+}
+
+/* NAV ITEMS POSITIONING & STYLES */
+
+.nav-link {
+    margin: 0;
+}
+
+.nav-item {
+    border-top: 2px solid var(--fidil-dark-blue);
+    padding: 16px 0;
+    text-align: center;
+}
+
+.nav-item.last {
+    padding-bottom: 0;
+}
+
+.navbar-collapse {
+    margin-top: 16px;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* === TABLET LAYOUT BREAKPOINT === */
+
+@media only screen and (min-width: 788px) {
+
+    /* HEADER RECONFIGURATION TO CENTER COLUMN */
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 788px 1fr;
+    }
+
+    nav {
+        grid-column-start: 2;
+    }
+
+    /* NAV ITEMS RESTYLING */
+    .nav-item {
+        border-top: none;
+        padding: 0;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 32px;
+    }
+
+    .navbar-collapse {
+        margin: 0;
+    }
+
+    /* NAVBAR EXPAND CUSTOM BREAKPOINT */
+    .navbar-expand-custom {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+
+    .navbar-expand-custom .navbar-collapse {
+        display: flex !important;
+    }
+
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
+
+
+}
+
+/* === WEB LAYOUT BREAKPOINT === */
+
+@media (min-width: 1366px) {
+
+    /* Center Column Dimensions Reconfig */
+    header {
+        grid-template-columns: 1fr 1366px 1fr;
+        grid-column: 1 span3;
+    }
+}
+
+/* CUSTOM NAV TOGGLER BREAKPOINT */
+
+
+
+/* HOME PAGE STYLES 
+
+svg:hover {
+    color: var(--fidil-orange)
+}
+/*.hero {
     display: grid;
     grid-template-columns: 1fr 1366px 1fr;
     grid-template-rows: 100vh;
@@ -121,8 +210,11 @@ p {
     grid-row: 2;
     grid-column: 1 / span 3;
 
-}
-
+}    main,
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1366px 1fr;
+    }
 main {
     grid-column: 2 / span 1;
     position: relative;
@@ -233,7 +325,7 @@ main {
 }
 
 
-/* FOOTER STYLES */
+/* FOOTER STYLES - STYLES WHICH APPLY TO FOOTER FEATURE 
 
 footer {
     background-color: var(--fidil-light-red);
@@ -272,7 +364,7 @@ footer {
 
 
 
-/* SECONDARY PAGE STYLES */
+/* SECONDARY PAGE STYLES 
 
 h2 {
     grid-column: 1 / span 3;
@@ -321,7 +413,7 @@ h2 {
 
 }
 
-/* HISTORY PAGE STYLES */
+/* HISTORY PAGE STYLES 
 .history-card-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -436,7 +528,7 @@ span {
     z-index: 2;
 }
 
-/* MODAL STYLES */
+/* MODAL STYLES 
 .modal-header .close {
     position: absolute;
     right: 24px;
@@ -491,16 +583,20 @@ span {
 }
 
 
-/* TABLET STYLES */
 
-@media only screen and (max-width: 1366px) {
+TABLET STYLES @media only screen and (max-width: 1366px) {
 
-    header,
+
+    /*
+
+
     main,
     footer {
         display: grid;
         grid-template-columns: 1fr 788px 1fr;
     }
+
+   
 
 
     .hero {
@@ -588,30 +684,20 @@ span {
 
 }
 
-/* PHONE STYLES */
+/* PHONE STYLES  
 
 
-@media only screen and (max-width: 788px) {
-    header {
-        grid-template-columns: 1fr;
-        justify-content: space-between;
-    }
+    @media only screen and (max-width: 788px) {
 
-    nav.navbar {
-        justify-content: center;
-        grid-column: 1;
-        justify-content: space-around;
-        margin-bottom: 16px;
-    }
 
-    header,
+        /*
     main,
     footer {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .hero {
+     .hero {
         grid-template-columns: 1fr;
         justify-content: center;
     }
@@ -666,22 +752,7 @@ span {
         margin: 32px;
     }
 
-    .nav-item {
-        text-align: center;
-        font-size: 32px;
-        font-weight: normal;
-        border-top: 2px solid var(--fidil-dark-blue);
-        padding: 16px 0 16px 0;
-    }
 
-    header {
-        padding-bottom: 0;
-    }
-
-    .navbar-collapse {
-        margin-top: 16px;
-        ;
-    }
 
     .secondary-card-container {
         width: 100%;
@@ -759,3 +830,5 @@ span {
         filter: blur(16px);
     }
 }
+
+/* HEADER STYLES */

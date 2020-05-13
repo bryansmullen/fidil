@@ -265,7 +265,11 @@ The text content from the website was copied from Wikipedia
 
 This readme file was based on content provided by [Code Institute](https://codeinstitute.net/)
 
+Git template used from second mentor meeting (commit f70d591ab423c5d6c00373b50f65a9cf9422ddc6) onwards adapted from [Chris Beams](https://chris.beams.io/posts/git-commit/)
+
 The svg pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
+
+The customisation of bootstrap navbar toggler breakpoint was adapted from a thread on [stack overflow](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less)
 
 ### 7.2. Media
 
