@@ -21,7 +21,7 @@
 
     <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg p-0">
+        <nav class="navbar navbar-expand-custom p-0 navbar-dark">
             <a class="navbar-brand m-0 p-0" href="./index.html"><img id="brand"
                     src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil logo" height="56px"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,8 +30,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link p-0" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link p-0" href="./instruments.html">Instruments</a>
@@ -39,14 +39,15 @@
                     <li class="nav-item">
                         <a class="nav-link p-0" href="./dances.html">Dances</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link  p-0" href="./history.html">History</a>
+                    <li class="nav-item active last">
+                        <a class="nav-link  p-0" href="./history.html">History <span
+                                class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
     </header>
-
+    <!--
     <main class="content content-history">
         <svg class="pattern" width="100%" height="100%">
             <defs>
@@ -63,7 +64,7 @@
         <h2>History</h2>
         <div class="card-container card-container-history">
 
-            <!-- History Card 1 -->
+            <!-- History Card 1 
             <div class="card card-history">
                 <div class="history-card-images">
                     <img class="primary-image" src="./assets/img/web/web_history_fiddle_orange@2x.jpg" alt="">
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <!-- History Card 2 -->
+            <!-- History Card 2 
             <div class="card card-history">
                 <div class="history-card-images">
                     <img class="primary-image" src="./assets/img/web/web_history_bodhran_orange@2x.jpg" alt="">
@@ -138,24 +139,28 @@
         </div>
     </main>
 
-    <!-- Footer -->
+    <-- Footer -->
     <footer>
-        <div class="footer-content">
-            <div class="footer-links">
-                <a href="#" data-toggle="modal" data-target="#contactModal">
+        <ul class="nav footer-nav">
+            <li class="nav-item">
+                <a href="#" class="footer-link" data-toggle="modal" data-target="#contactModal">
                     Contact
                 </a>
-                <a href="#" type="button" data-toggle="modal" data-target="#aboutModal">
+            </li>
+            <li class="nav-item">
+                <a href=" #" class="footer-link" type=" button" data-toggle="modal" data-target="#aboutModal">
                     About
                 </a>
-            </div>
-            <a href="./index.html">
-                <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
-            </a>
-        </div>
+            </li>
+        </ul>
+
+
+        <a class="footer-logo" href="./index.html">
+            <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
+        </a>
     </footer>
 
-    <!-- Contact Modal -->
+    <!-- Contact Modal 
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -179,7 +184,7 @@
         </div>
     </div>
 
-    <!-- About Modal-->
+    <!-- About Modal
     <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -207,7 +212,7 @@
         </div>
     </div>
 
-    <!-- History 1 Modal -->
+    <!-- History 1 Modal 
     <div class="modal fade" id="history1Modal" tabindex="-1" role="dialog" aria-labelledby="history1ModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -254,7 +259,7 @@
         </div>
     </div>
 
-    <!-- History 2 Modal -->
+    <!-- History 2 Modal 
     <div class="modal fade" id="history2Modal" tabindex="-1" role="dialog" aria-labelledby="history2ModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
