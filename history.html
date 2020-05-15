@@ -47,8 +47,9 @@
             </div>
         </nav>
     </header>
-    <!--
+    <!-- Main Content -->
     <main class="content content-history">
+        <!-- Patterned Wallpaper -->
         <svg class="pattern" width="100%" height="100%">
             <defs>
                 <pattern id="logo-wallpaper" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
@@ -57,55 +58,62 @@
                     <path fill="#ffffff"
                         d="M66.52,41.55a8.4,8.4,0,0,1,1.6,9.36,10.37,10.37,0,0,1-3.3,3.88,20.47,20.47,0,0,1-4.34,2.32,42.69,42.69,0,0,0-4.18,1.8c-.32.17-.62.36-.92.55l-.42.3-.15.12-.14.15a6.59,6.59,0,0,0-1,1.77,25.22,25.22,0,0,0-1.21,4.34c-.15.76-.27,1.51-.38,2.27-.05.38-.09.76-.13,1.14,0,.19,0,.38,0,.56a4,4,0,0,0,0,.49l-.68.17c-.21-.64-.44-1.32-.67-2l-.35-1a7.84,7.84,0,0,0-.38-.85,6.58,6.58,0,0,0-1.14-1.46,4.34,4.34,0,0,0-1.43-.93,2.65,2.65,0,0,0-1.5-.11,3,3,0,0,0-1.35.66,9.18,9.18,0,0,0-2,3.09c-.6,1.24-1.17,2.51-1.76,3.77s-1.21,2.53-1.85,3.78a74.26,74.26,0,0,1-4.2,7.32l-.22-.1a73.77,73.77,0,0,1,2.61-8c1-2.62,2.06-5.2,3.29-7.76a21.11,21.11,0,0,1,1-2A7.23,7.23,0,0,1,43,63.39a5.08,5.08,0,0,1,2.45-1,4.67,4.67,0,0,1,2.61.42A5.82,5.82,0,0,1,50,64.33a7.07,7.07,0,0,1,1.19,2,7.36,7.36,0,0,1,.31,1.12c.08.36.14.71.19,1.06.11.71.21,1.4.26,2.13l.17,2.68-.86-2.51a3.35,3.35,0,0,1-.14-.67c0-.21,0-.41,0-.61,0-.4,0-.8,0-1.2,0-.8,0-1.59.11-2.38A22.78,22.78,0,0,1,52,61.2a8,8,0,0,1,1.17-2.37c.08-.09.16-.19.25-.28l.29-.28c.17-.13.33-.28.5-.4a10.21,10.21,0,0,1,1.06-.7,36.56,36.56,0,0,1,4.36-2,18.61,18.61,0,0,0,3.9-2.08,9.74,9.74,0,0,0,2.86-3,8.13,8.13,0,0,0,1-4,9.61,9.61,0,0,0-1.1-4.31Z" />
                 </pattern>
-
             </defs>
             <rect x="0" y="0" width="100%" height="100%" fill="url(#logo-wallpaper)"></rect>
         </svg>
-        <h2>History</h2>
-        <div class="card-container card-container-history">
+        <h2 class="page-heading">History</h2>
 
-            <!-- History Card 1 
-            <div class="card card-history">
-                <div class="history-card-images">
-                    <img class="primary-image" src="./assets/img/web/web_history_fiddle_orange@2x.jpg" alt="">
-                    <img class="secondary-image" src="./assets/img/web/web_history_soft_shoes_orange@2x.jpg" alt="">
-                </div>
-                <div class="history-card-content">
-                    <h3>Introduction to Irish Music History Part 1</h3>
-                    <p>
-                        Irish traditional music (also known as Irish trad, Irish folk music, and other variants) is a
-                        genre
-                        of folk music that developed in Ireland. In A History of Irish Music (1905), W. H. Grattan Flood
-                        wrote that, in Gaelic Ireland, there were at least ten instruments in general use. These were
-                        the
-                        cruit (a small harp) and clairseach (a bigger harp with typically 30 strings), the timpan (a
-                        small
-                        string instrument played with a bow or plectrum), the feadan (a fife), the buinne (an oboe or
-                        flute), the guthbuinne (a bassoon-type horn), the bennbuabhal and corn (hornpipes), the
-                        cuislenna
-                        (bagpipes – see Great Irish warpipes), the stoc and sturgan (clarions or trumpets), and the
-                        cnamha
-                        (bones). There is also evidence of the fiddle being used in the 8th century. There are several
-                        collections of Irish folk music from the 18th century, but it was not until the 19th century
-                        that
-                        ballad printers became established in Dublin. Important collectors include Colm Ó Lochlainn,
-                        George
-                        Petrie, Edward Bunting, Francis O’Neill, James Goodman and many others. Though solo performance
-                        is
-                        preferred in the folk tradition, bands or at least small ensembles have probably been a part of
-                        Irish music since at least the mid-19th century, although this is a point of much contention
-                        among
-                        ethnomusicologists.
-                    </p>
-                    <a href="#" data-toggle="modal" data-target="#history1Modal" class="button">
-                        <div class="red"></div>
-                        <p>Read More</p>
-                        <span id="arrow"><img src="./assets/img/web/icon_arrow.svg" alt=""></span>
-                    </a>
-                </div>
+        <!-- History Card 1 -->
+        <div class="card card-history">
+            <div class="history-card-images">
+                <picture class="primary-image">
+                    <source media="(min-width: 1366px)" srcset="./assets/img/web/web_history_fiddle_orange@2x.jpg">
+                    <source media="(min-width: 788px)" srcset="./assets/img/tablet/tablet_history1_fiddle@2x.jpg">
+                    <img src="./assets/img/phone/phone_history_fiddle@2x.jpg" alt="Fiddle">
+                </picture>
+                <picture class="secondary-image">
+                    <source media="(min-width: 1366px)" srcset="./assets/img/web/web_history_soft_shoes_orange@2x.jpg">
+                    <img src="./assets/img/tablet/tablet_history1_shoes@2x.jpg" alt="">
+                </picture>
+
+
             </div>
 
-            <!-- History Card 2 
+            <h3>Introduction to Irish Music History Part 1</h3>
+            <p>
+                Irish traditional music (also known as Irish trad, Irish folk music, and other variants) is a
+                genre
+                of folk music that developed in Ireland. In A History of Irish Music (1905), W. H. Grattan Flood
+                wrote that, in Gaelic Ireland, there were at least ten instruments in general use. These were
+                the
+                cruit (a small harp) and clairseach (a bigger harp with typically 30 strings), the timpan (a
+                small
+                string instrument played with a bow or plectrum), the feadan (a fife), the buinne (an oboe or
+                flute), the guthbuinne (a bassoon-type horn), the bennbuabhal and corn (hornpipes), the
+                cuislenna
+                (bagpipes – see Great Irish warpipes), the stoc and sturgan (clarions or trumpets), and the
+                cnamha
+                (bones). There is also evidence of the fiddle being used in the 8th century. There are several
+                collections of Irish folk music from the 18th century, but it was not until the 19th century
+                that
+                ballad printers became established in Dublin. Important collectors include Colm Ó Lochlainn,
+                George
+                Petrie, Edward Bunting, Francis O’Neill, James Goodman and many others. Though solo performance
+                is
+                preferred in the folk tradition, bands or at least small ensembles have probably been a part of
+                Irish music since at least the mid-19th century, although this is a point of much contention
+                among
+                ethnomusicologists.
+            </p>
+            <a href="./instruments.html" class="card-button">
+                <div class="red"></div>
+                <p class="read-more-link">Read More</p>
+                <img src="./assets/img/web/icon_arrow.svg" alt="arrow icon" />
+            </a>
+        </div>
+
+
+        <!-- History Card 2 
             <div class="card card-history">
                 <div class="history-card-images">
                     <img class="primary-image" src="./assets/img/web/web_history_bodhran_orange@2x.jpg" alt="">
@@ -140,27 +148,27 @@
     </main>
 
     <-- Footer -->
-    <footer>
-        <ul class="nav footer-nav">
-            <li class="nav-item">
-                <a href="#" class="footer-link" data-toggle="modal" data-target="#contactModal">
-                    Contact
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href=" #" class="footer-link" type=" button" data-toggle="modal" data-target="#aboutModal">
-                    About
-                </a>
-            </li>
-        </ul>
+        <footer>
+            <ul class="nav footer-nav">
+                <li class="nav-item">
+                    <a href="#" class="footer-link" data-toggle="modal" data-target="#contactModal">
+                        Contact
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href=" #" class="footer-link" type=" button" data-toggle="modal" data-target="#aboutModal">
+                        About
+                    </a>
+                </li>
+            </ul>
 
 
-        <a class="footer-logo" href="./index.html">
-            <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
-        </a>
-    </footer>
+            <a class="footer-logo" href="./index.html">
+                <img src="./assets/img/web/web_fidil_logo_large.svg" alt="Fidil Logo" height="56px">
+            </a>
+        </footer>
 
-    <!-- Contact Modal 
+        <!-- Contact Modal 
     <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -307,15 +315,15 @@
     </div>
 
     <!-- Bootstrap 4.4.1 JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

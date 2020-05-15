@@ -34,18 +34,21 @@ img {
 h2,
 h3,
 .nav-item,
-.footer-link {
+.footer-link,
+.read-more-link {
   font-family: century-gothic, arial, sans-serif;
 }
 
 h3,
 .nav-item,
-.footer-link {
+.footer-link,
+.read-more-link {
   text-transform: uppercase;
 }
 
 h2,
-.footer-link {
+.footer-link,
+.read-more-link {
   color: white;
 }
 
@@ -60,18 +63,18 @@ h2 {
 
 h3 {
   color: var(--fidil-light-red);
-  font-size: 32px;
+  font-size: 1.75rem;
 }
 
 p {
   color: var(--fidil-black);
   font-family: minion-pro;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 .nav-item {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* LINK PSEUDO CLASS TYPOGRAPHY COLORS */
@@ -189,6 +192,70 @@ footer img {
   margin-top: 32px;
 }
 
+/* MAIN CONTENT - SITE WIDE STYLES */
+
+.pattern {
+  display: none;
+}
+
+.card {
+  border: none;
+}
+
+picture img {
+  width: 100%;
+}
+.card > h3 {
+  margin: 40px 40px 0 40px;
+  text-align: center;
+}
+
+.card > p {
+  margin: 16px 40px 0 40px;
+  text-align: justify;
+}
+.card-button {
+  background-color: var(--fidil-orange);
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 24px 40px 54px;
+  height: 56px;
+}
+
+.card-button:hover {
+  background-color: var(--fidil-light-red);
+  text-decoration: none;
+}
+
+.card-button > p {
+  grid-column: 1 / span 1;
+  margin: 0;
+}
+
+.card-button > img {
+  grid-row: 1;
+  grid-column: 2 / span 1;
+  z-index: 2;
+}
+
+.red {
+  grid-column: 2 / span 1;
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--fidil-light-red);
+}
+
+/* Additional styles for Instruments, Dances, History Pages */
+
+.page-heading,
+.secondary-image {
+  display: none;
+}
 /* === TABLET LAYOUT BREAKPOINT === */
 
 @media only screen and (min-width: 788px) {
@@ -208,7 +275,7 @@ footer img {
     border-top: none;
     padding: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     margin-left: 32px;
   }
 
@@ -273,6 +340,12 @@ footer img {
 
   .hero-image {
     display: block;
+  }
+
+  /* HISTORY SECTION - SHOW SECONDARY IMAGE ON TABLET & WEB */
+
+  .secondary-image {
+    display: inline;
   }
 }
 
