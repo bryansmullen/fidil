@@ -102,7 +102,7 @@ p {
   text-decoration: none;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
   color: var(--fidil-white);
 }
 
@@ -170,10 +170,8 @@ footer img {
 /* HERO CONTENT SIZING & ALIGNMENT */
 
 .hero-container {
-  background-image: linear-gradient(
-    var(--fidil-light-blue),
-    var(--fidil-black)
-  );
+  background-image: linear-gradient(var(--fidil-light-blue),
+      var(--fidil-black));
   min-height: 90vh;
   display: grid;
   justify-content: center;
@@ -205,15 +203,17 @@ footer img {
 picture img {
   width: 100%;
 }
-.card > h3 {
+
+.card>h3 {
   margin: 40px 40px 0 40px;
   text-align: center;
 }
 
-.card > p {
+.card>p {
   margin: 16px 40px 0 40px;
   text-align: justify;
 }
+
 .card-button {
   background-color: var(--fidil-orange);
   display: grid;
@@ -230,12 +230,12 @@ picture img {
   text-decoration: none;
 }
 
-.card-button > p {
+.card-button>p {
   grid-column: 1 / span 1;
   margin: 0;
 }
 
-.card-button > img {
+.card-button>img {
   grid-row: 1;
   grid-column: 2 / span 1;
   z-index: 2;
@@ -256,6 +256,7 @@ picture img {
 .secondary-image {
   display: none;
 }
+
 /* === TABLET LAYOUT BREAKPOINT === */
 
 @media only screen and (min-width: 788px) {
@@ -347,12 +348,61 @@ picture img {
   .secondary-image {
     display: inline;
   }
+
+  /* CARD CONTAINER RECONFIGURATION - 2 CARDS PER LINE */
+
+  main {
+    position: relative;
+    background-image:
+      linear-gradient(var(--fidil-black), var(--fidil-light-blue));
+    display: grid;
+    grid-template-columns: 1fr 788px 1fr;
+    grid-template-rows: 1fr;
+    padding: 140px 0 0 0;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+
+
+  }
+
+  .card-container .card {
+    width: 45%;
+    margin: 0 2.5% 80px 2.5%;
+    padding-bottom: 120px;
+
+  }
+
+  /* OVERLAY SVG PATTERNED BACKGROUND */
+  .pattern {
+    display: inline;
+    grid-column: 1 / span 3;
+    height: 100%;
+    position: absolute;
+    mix-blend-mode: overlay;
+  }
+
+  /* REPOSITION READ MORE BUTTON */
+
+  .card-button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 32px;
+    width: 200px;
+  }
 }
 
 /* === WEB LAYOUT BREAKPOINT === */
 
 @media (min-width: 1366px) {
-  /* Center Column Dimensions Reconfig */
+
+  /* CENTER COLUMN DIMENSIONS RECONFIG */
   header {
     grid-template-columns: 1fr 1366px 1fr;
     grid-column: 1 span3;
@@ -360,6 +410,22 @@ picture img {
 
   footer {
     grid-template-columns: 1fr 1366px 1fr;
+  }
+
+  /* CARD CONTAINER RECONFIGURATION - 3 CARDS PER LINE */
+
+  .card-container .card {
+    width: 32%;
+    margin: 0;
+  }
+
+  main {
+    grid-template-columns: 1fr 1366px 1fr;
+  }
+
+  .card-container {
+    justify-content: space-between;
+    margin-bottom: 80px;
   }
 }
 
