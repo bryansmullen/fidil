@@ -361,7 +361,7 @@ picture img {
     padding: 140px 0 0 0;
   }
 
-  .card-container {
+  .card-container-home {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -371,7 +371,7 @@ picture img {
 
   }
 
-  .card-container .card {
+  .card-container-home .card {
     width: 45%;
     margin: 0 2.5% 80px 2.5%;
     padding-bottom: 120px;
@@ -396,6 +396,40 @@ picture img {
     margin-bottom: 32px;
     width: 200px;
   }
+
+  /* ADJUST LAYOUT FOR INSTRUMENTS AND DANCE PAGE */
+
+  .content-instruments,
+  .content-dances {
+    justify-items: center;
+  }
+
+  .content-instruments h2,
+  .content-dances h2 {
+    margin-bottom: 80px;
+  }
+
+  .page-heading {
+    display: block;
+  }
+
+  .page-heading,
+  .card-instruments,
+  .card-dances {
+    grid-column: 2;
+  }
+
+  .card-instruments,
+  .card-dances {
+
+    padding-bottom: 120px;
+    margin: 80px;
+  }
+
+  .card-instruments>p,
+  .card-dances>p {
+    margin: 0 80px;
+  }
 }
 
 /* === WEB LAYOUT BREAKPOINT === */
@@ -414,7 +448,7 @@ picture img {
 
   /* CARD CONTAINER RECONFIGURATION - 3 CARDS PER LINE */
 
-  .card-container .card {
+  .card-container-home .card {
     width: 32%;
     margin: 0;
   }
@@ -423,9 +457,33 @@ picture img {
     grid-template-columns: 1fr 1366px 1fr;
   }
 
-  .card-container {
+  .card-container-home {
     justify-content: space-between;
     margin-bottom: 80px;
+  }
+
+  /* ADJUST LAYOUT FOR INSTRUMENTS PAGE */
+
+  .card-instruments>picture,
+  .card-dances>picture {
+    position: absolute;
+    left: 0;
+  }
+
+  .card-instruments h3,
+  .card-dances h3 {
+    margin: 80px 0 40px 0;
+  }
+
+  .card-instruments,
+  .card-dances {
+    padding: 0 5% 120px 45%;
+    height: 823px;
+  }
+
+  .card-instruments p,
+  .card-dances p {
+    margin: 0;
   }
 }
 
