@@ -35,14 +35,16 @@ h2,
 h3,
 .nav-item,
 .footer-link,
-.read-more-link {
+.read-more-link,
+.modal-footer>button>a {
   font-family: century-gothic, arial, sans-serif;
 }
 
 h3,
 .nav-item,
 .footer-link,
-.read-more-link {
+.read-more-link,
+.modal-footer>button>a {
   text-transform: uppercase;
 }
 
@@ -53,7 +55,8 @@ h2,
 }
 
 h3,
-.footer-link {
+.footer-link,
+.modal-footer>button>a {
   font-weight: bold;
 }
 
@@ -66,7 +69,8 @@ h3 {
   font-size: 1.75rem;
 }
 
-p {
+p,
+.modal-body {
   color: var(--fidil-black);
   font-family: minion-pro;
   font-size: 1rem;
@@ -76,6 +80,11 @@ p {
 .nav-item {
   font-size: 1.25rem;
 }
+
+.modal-footer>button>a {
+  color: var(--fidil-dark-blue);
+}
+
 
 /* LINK PSEUDO CLASS TYPOGRAPHY COLORS */
 
@@ -104,6 +113,10 @@ p {
 
 .navbar-dark .navbar-nav .active>.nav-link {
   color: var(--fidil-white);
+}
+
+.modal-footer>button>a:hover {
+  color: var(--fidil-orange);
 }
 
 /* === MOBILE FIRST STYLES === */
@@ -255,6 +268,33 @@ picture img {
 .page-heading,
 .secondary-image {
   display: none;
+}
+
+/* MODAL STYLING */
+
+
+
+.modal-header {
+  justify-content: center;
+  border-bottom: none;
+  text-align: center;
+}
+
+.modal-header button.close {
+  margin: 0;
+  position: absolute;
+  right: 12px;
+  top: 8px;
+
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: none;
+}
+
+.modal-body {
+  text-align: center;
 }
 
 /* === TABLET LAYOUT BREAKPOINT === */
@@ -426,6 +466,17 @@ picture img {
   .card-dances>p,
   .card-history>p {
     margin: 0 80px;
+  }
+
+  /* MODAL ENLARGEMENT FOR TABLET & WEB */
+  .modal-content {
+    width: 788px;
+    padding: 10%;
+  }
+
+  .modal-dialog {
+    display: grid;
+    justify-content: center;
   }
 }
 
