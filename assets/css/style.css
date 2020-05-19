@@ -1,24 +1,9 @@
 /* === DEFAULTS === */
 
-/* COLOR PALETTE VARIABLES - USE THESE VARIABLES IN PLACE OF HEX CODE THROUGHOUT TO ALLOW EASY ADJUSTMENT LATER */
-
-:root {
-  --fidil-dark-blue: #0378a6;
-  --fidil-light-blue: #04b2d9;
-  --fidil-orange: #f26c05;
-  --fidil-light-red: #d93d04;
-  --fidil-dark-red: #a6290d;
-  --fidil-white: #ffffff;
-  --fidil-off-white: rgba(255, 255, 255, 0.6);
-  --fidil-light-grey: #909090;
-  --fidil-neutral-grey: #707070;
-  --fidil-black: #000000;
-}
-
 /* GLOBAL LAYOUT STYLES - SET CANVAS COLOUR, MIN SIZE, AND MAX IMG SIZE */
 
 html {
-  background-color: var(--fidil-orange);
+  background-color: #f26c05;
 }
 
 body {
@@ -65,13 +50,13 @@ h2 {
 }
 
 h3 {
-  color: var(--fidil-light-red);
+  color: #d93d04;
   font-size: 1.75rem;
 }
 
 p,
 .modal-body {
-  color: var(--fidil-black);
+  color: #000000;
   font-family: minion-pro;
   font-size: 1rem;
   line-height: 2rem;
@@ -82,23 +67,23 @@ p,
 }
 
 .modal-footer > a {
-  color: var(--fidil-dark-blue);
+  color: #0378a6;
 }
 
 /* LINK PSEUDO CLASS TYPOGRAPHY COLORS */
 
 .navbar-dark .navbar-nav .nav-link,
 .footer-link {
-  color: var(--fidil-off-white);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .footer-link:hover {
-  color: var(--fidil-white);
+  color: #ffffff;
 }
 
 .navbar-dark .navbar-nav .nav-link:active {
-  color: var(--fidil-orange);
+  color: #f26c05;
 }
 
 .footer-link:hover {
@@ -106,16 +91,16 @@ p,
 }
 
 .footer-link:active {
-  color: var(--fidil-light-blue);
+  color: #04b2d9;
   text-decoration: none;
 }
 
 .navbar-dark .navbar-nav .active > .nav-link {
-  color: var(--fidil-white);
+  color: #ffffff;
 }
 
 .modal-footer > button > a:hover {
-  color: var(--fidil-orange);
+  color: #f26c05;
 }
 
 /* === MOBILE FIRST STYLES === */
@@ -124,8 +109,8 @@ p,
 
 header {
   padding: 16px 0;
-  background-color: var(--fidil-light-blue);
-  border-bottom: 2px solid var(--fidil-dark-blue);
+  background-color: #04b2d9;
+  border-bottom: 2px solid #0378a6;
 }
 
 nav.navbar {
@@ -139,7 +124,7 @@ header .nav-link {
 }
 
 header .nav-item {
-  border-top: 2px solid var(--fidil-dark-blue);
+  border-top: 2px solid #0378a6;
   padding: 16px 0;
   text-align: center;
 }
@@ -159,10 +144,10 @@ header .nav-item.last {
 /* FOOTER LAYOUT & STYLING */
 
 footer {
-  background-color: var(--fidil-light-red);
+  background-color: #d93d04;
   display: grid;
-  grid-template-columns: 1;
-  grid-template-rows: 2;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
   justify-items: center;
 }
 
@@ -183,10 +168,7 @@ footer img {
 /* HERO CONTENT SIZING & ALIGNMENT */
 
 .hero-container {
-  background-image: linear-gradient(
-    var(--fidil-light-blue),
-    var(--fidil-black)
-  );
+  background-image: linear-gradient(#04b2d9, #000000);
   min-height: 90vh;
   display: grid;
   justify-content: center;
@@ -230,7 +212,7 @@ picture img {
 }
 
 .card-button {
-  background-color: var(--fidil-orange);
+  background-color: #f26c05;
   display: grid;
   grid-template-columns: 4fr 1fr;
   grid-template-rows: 1fr;
@@ -241,7 +223,7 @@ picture img {
 }
 
 .card-button:hover {
-  background-color: var(--fidil-light-red);
+  background-color: #d93d04;
   text-decoration: none;
 }
 
@@ -262,7 +244,7 @@ picture img {
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: var(--fidil-light-red);
+  background-color: #d93d04;
 }
 
 /* Additional styles for Instruments, Dances, History Pages */
@@ -386,10 +368,7 @@ picture img {
 
   main {
     position: relative;
-    background-image: linear-gradient(
-      var(--fidil-black),
-      var(--fidil-light-blue)
-    );
+    background-image: linear-gradient(#000000, #04b2d9);
     display: grid;
     grid-template-columns: 1fr 788px 1fr;
     grid-template-rows: 1fr;

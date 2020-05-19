@@ -177,7 +177,10 @@ Testing is carried out at three phases to evaluate the prototypes functionality,
 
 Further to this, all HTML and CSS in this project is validated by using the [W3C Markup Validation Service](https://validator.w3.org/) and the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
-> Validation was completed on {**Insert date of validation here**}
+<img src="https://uglyduck.ca/wp-content/uploads/2020/04/html5-validator-badge.svg" alt="Valid HTML" class="wp-image-424"> HTML Validated without errors on 19 May 2020
+<img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />CSS Validated without errors on 19 May 2020
 
 ### 5.2. Tests Conducted
 
