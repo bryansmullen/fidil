@@ -85,7 +85,6 @@ p,
   color: var(--fidil-dark-blue);
 }
 
-
 /* LINK PSEUDO CLASS TYPOGRAPHY COLORS */
 
 .navbar-dark .navbar-nav .nav-link,
@@ -176,6 +175,7 @@ footer img {
 }
 
 /* HIDE IMAGE ON PHONE LAYOUT */
+
 .hero-image {
   display: none;
 }
@@ -272,8 +272,6 @@ picture img {
 
 /* MODAL STYLING */
 
-
-
 .modal-header {
   justify-content: center;
   border-bottom: none;
@@ -299,7 +297,7 @@ picture img {
 
 /* === TABLET LAYOUT BREAKPOINT === */
 
-@media only screen and (min-width: 788px) {
+@media only screen and (min-width: 788px) 
   /* HEADER RECONFIGURATION TO CENTER COLUMN */
 
   header {
@@ -406,8 +404,6 @@ picture img {
     justify-content: left;
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
-
-
   }
 
   .card-container-home .card {
@@ -418,6 +414,7 @@ picture img {
   }
 
   /* OVERLAY SVG PATTERNED BACKGROUND */
+
   .pattern {
     display: inline;
     grid-column: 1 / span 3;
@@ -457,7 +454,6 @@ picture img {
   .card-instruments,
   .card-dances,
   .card-history {
-
     padding-bottom: 120px;
     margin: 80px;
   }
@@ -469,6 +465,7 @@ picture img {
   }
 
   /* MODAL ENLARGEMENT FOR TABLET & WEB */
+
   .modal-content {
     width: 788px;
     padding: 10%;
@@ -483,8 +480,8 @@ picture img {
 /* === WEB LAYOUT BREAKPOINT === */
 
 @media (min-width: 1366px) {
-
   /* CENTER COLUMN DIMENSIONS RECONFIG */
+
   header {
     grid-template-columns: 1fr 1366px 1fr;
     grid-column: 1 span3;
@@ -537,7 +534,6 @@ picture img {
   .card-history p {
     margin: 0;
   }
-
 
   /* HISTORY SECTION - SHOW SECONDARY IMAGE ON WEB */
 
