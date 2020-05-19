@@ -1,16 +1,12 @@
 # Fidil
 
-An Irish Music Resource
+[View the live project here](https://bryansmullen.github.io/fidil/)
+
+<img src = "pre-production/fidil_mockup_banner.jpg">
 
 **Fidil** is an online Irish Traditional Music resource which delivers content in a bitesized, aesthetically pleasing manner which appeals to the hobbyist musician.
 
 There are already Irish Traditional Music resources available online, however, many of them take time and effort to navigate. Fidil's focus is on simplicity, so that it is instantly accessible and intuitive to even the first time user.
-
----
-
-## Preface
-
-This is a live working document based on a recommended template. As such, some sections have not yet been filled in. They are represented as blockquotes and will be filled in in due course.
 
 ---
 
@@ -43,6 +39,33 @@ This is a live working document based on a recommended template. As such, some s
    7.3. Acknowledgements
 
 ---
+
+## Design
+
+### Color Palette
+
+The colors palette chosen for the brand consist of blues and oranges. The blues represent the refreshing, reliable nature of the content, while the orange represents the vibrant creativity inherant in the artform.
+
+The specific shades chosen were
+
+- #04b2d9
+- #0378a6
+- #d93d04
+- #f26c05
+
+The orange shade derives from a shade of orange found in the wood of a picture of a fiddle, and this same photo also formed the basis of the curve of the logo. The blue shades, as well as the red shade were then selected using [Adobe Color Picker](https://color.adobe.com/create) to experiment and find shades to compliment.
+
+### Typography
+
+[Century gothic](https://fonts.adobe.com/fonts/century-gothic) was selected as the primary typeface for the major headings because of its modern, sleek design, as well as it's striking look in headings and logos. It is well supported across modern browsers according to [fonts.com](https://www.fonts.com/font/monotype/century-gothic/story). [Minion Pro](https://fonts.adobe.com/fonts/minion) was chosen to compliment it through the body text, and it is recommended by [bonfx.com](https://bonfx.com/fonts-that-go-with-century-gothic/) as a less series, more friendly pairing than some of the other options available.
+
+### Imagery
+
+[Shutterstock](https://www.shutterstock.com/) was used as the primary source of imagery for the website as it provides high quality images available for licensing. Licenses were obtained for all imagery used in this project in line with their Standard License.
+
+### Wireframes
+
+[Adobe XD](https://www.adobe.com/products/xd/details.html) was used during the design phase to create both a [wireframe]() and a [prototype]() before commencing the development phase of the project.
 
 ## 1. Project Background
 
@@ -166,6 +189,10 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [Adobe XD](#) was used to construct both wireframes and prototypes.
 - [Adobe Photoshop](#) and [Adobe Illustrator](#) were used to create design assets.
 - [Visual Studio Code](#) was the main IDE for this project.
+- [Adobe Fonts]() was used to select and serve the fonts used in this project.
+- [Adobe Color]() was used to select the color palette used in this project.
+- [Git]() was used for version control in this project. Over the course of the project a Develop branch was added to the project to allow work to continue on the website without breaking the functioning version on the Master branch.
+- [Github]() was used as a remote repository for the site, as well as for deployment of the final version.
 
 ---
 
@@ -270,7 +297,7 @@ This readme file was based on content provided by [Code Institute](https://codei
 
 Git template used from second mentor meeting (commit f70d591ab423c5d6c00373b50f65a9cf9422ddc6) onwards adapted from [Chris Beams](https://chris.beams.io/posts/git-commit/)
 
-The svg pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
+The svg background pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
 
 The customisation of bootstrap navbar toggler breakpoint was adapted from a thread on [stack overflow](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less)
 
@@ -302,4 +329,7 @@ I received inspiration for this project from:
 - [The Session](https://thesession.org/tunes)
 - [Online Academy of Irish Music](https://www.oaim.ie/)
 
-Thanks to David, Gillian, and Patricio for help in the testing stages.
+I received much advice, coaching and steering towards good development practice on this project from my Code Institute mentor Precious Ijege.
+
+Special thanks to [David](https://www.linkedin.com/in/david-mullen-4b90ba91/), Gillian, and [Patricio](https://www.linkedin.com/in/pharteg/) for help in the testing stages.
+
