@@ -36,7 +36,7 @@ h3,
 .nav-item,
 .footer-link,
 .read-more-link,
-.modal-footer>button>a {
+.modal-footer > a {
   font-family: century-gothic, arial, sans-serif;
 }
 
@@ -44,7 +44,7 @@ h3,
 .nav-item,
 .footer-link,
 .read-more-link,
-.modal-footer>button>a {
+.modal-footer > a {
   text-transform: uppercase;
 }
 
@@ -56,7 +56,7 @@ h2,
 
 h3,
 .footer-link,
-.modal-footer>button>a {
+.modal-footer > a {
   font-weight: bold;
 }
 
@@ -81,7 +81,7 @@ p,
   font-size: 1.25rem;
 }
 
-.modal-footer>button>a {
+.modal-footer > a {
   color: var(--fidil-dark-blue);
 }
 
@@ -110,11 +110,11 @@ p,
   text-decoration: none;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link {
+.navbar-dark .navbar-nav .active > .nav-link {
   color: var(--fidil-white);
 }
 
-.modal-footer>button>a:hover {
+.modal-footer > button > a:hover {
   color: var(--fidil-orange);
 }
 
@@ -183,8 +183,10 @@ footer img {
 /* HERO CONTENT SIZING & ALIGNMENT */
 
 .hero-container {
-  background-image: linear-gradient(var(--fidil-light-blue),
-      var(--fidil-black));
+  background-image: linear-gradient(
+    var(--fidil-light-blue),
+    var(--fidil-black)
+  );
   min-height: 90vh;
   display: grid;
   justify-content: center;
@@ -217,12 +219,12 @@ picture img {
   width: 100%;
 }
 
-.card>h3 {
+.card > h3 {
   margin: 40px 40px 0 40px;
   text-align: center;
 }
 
-.card>p {
+.card > p {
   margin: 16px 40px 0 40px;
   text-align: justify;
 }
@@ -243,12 +245,12 @@ picture img {
   text-decoration: none;
 }
 
-.card-button>p {
+.card-button > p {
   grid-column: 1 / span 1;
   margin: 0;
 }
 
-.card-button>img {
+.card-button > img {
   grid-row: 1;
   grid-column: 2 / span 1;
   z-index: 2;
@@ -283,7 +285,6 @@ picture img {
   position: absolute;
   right: 12px;
   top: 8px;
-
 }
 
 .modal-footer {
@@ -297,7 +298,7 @@ picture img {
 
 /* === TABLET LAYOUT BREAKPOINT === */
 
-@media only screen and (min-width: 788px){
+@media only screen and (min-width: 788px) {
   /* HEADER RECONFIGURATION TO CENTER COLUMN */
 
   header {
@@ -381,20 +382,21 @@ picture img {
     display: block;
   }
 
-
   /* CARD CONTAINER RECONFIGURATION - 2 CARDS PER LINE */
 
   main {
     position: relative;
-    background-image:
-      linear-gradient(var(--fidil-black), var(--fidil-light-blue));
+    background-image: linear-gradient(
+      var(--fidil-black),
+      var(--fidil-light-blue)
+    );
     display: grid;
     grid-template-columns: 1fr 788px 1fr;
     grid-template-rows: 1fr;
     padding: 140px 0 0 0;
   }
 
-  .card>h3 {
+  .card > h3 {
     margin: 40px 80px 20px;
   }
 
@@ -410,7 +412,6 @@ picture img {
     width: 45%;
     margin: 0 2.5% 80px 2.5%;
     padding-bottom: 120px;
-
   }
 
   /* OVERLAY SVG PATTERNED BACKGROUND */
@@ -458,9 +459,9 @@ picture img {
     margin: 80px;
   }
 
-  .card-instruments>p,
-  .card-dances>p,
-  .card-history>p {
+  .card-instruments > p,
+  .card-dances > p,
+  .card-history > p {
     margin: 0 80px;
   }
 
@@ -509,9 +510,9 @@ picture img {
 
   /* ADJUST LAYOUT FOR INSTRUMENTS, DANCE, HISTORY PAGE */
 
-  .card-instruments>picture,
-  .card-dances>picture,
-  .card-history>picture {
+  .card-instruments > picture,
+  .card-dances > picture,
+  .card-history > picture {
     position: absolute;
     left: 0;
   }
@@ -554,7 +555,7 @@ picture img {
     height: 802px;
   }
 
-  .card-history>picture>img {
+  .card-history > picture > img {
     height: 401px;
   }
 
