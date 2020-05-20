@@ -21,7 +21,7 @@ h3,
 .nav-item,
 .footer-link,
 .read-more-link,
-.modal-footer > a {
+.modal-footer>a {
   font-family: century-gothic, arial, sans-serif;
 }
 
@@ -29,7 +29,7 @@ h3,
 .nav-item,
 .footer-link,
 .read-more-link,
-.modal-footer > a {
+.modal-footer>a {
   text-transform: uppercase;
 }
 
@@ -41,7 +41,7 @@ h2,
 
 h3,
 .footer-link,
-.modal-footer > a {
+.modal-footer>a {
   font-weight: bold;
 }
 
@@ -66,7 +66,7 @@ p,
   font-size: 1.25rem;
 }
 
-.modal-footer > a {
+.modal-footer>a {
   color: #0378a6;
 }
 
@@ -95,11 +95,11 @@ p,
   text-decoration: none;
 }
 
-.navbar-dark .navbar-nav .active > .nav-link {
+.navbar-dark .navbar-nav .active>.nav-link {
   color: #ffffff;
 }
 
-.modal-footer > button > a:hover {
+.modal-footer>button>a:hover {
   color: #f26c05;
 }
 
@@ -201,12 +201,12 @@ picture img {
   width: 100%;
 }
 
-.card > h3 {
+.card>h3 {
   margin: 40px 40px 0 40px;
   text-align: center;
 }
 
-.card > p {
+.card>p {
   margin: 16px 40px 0 40px;
   text-align: justify;
 }
@@ -227,12 +227,12 @@ picture img {
   text-decoration: none;
 }
 
-.card-button > p {
+.card-button>p {
   grid-column: 1 / span 1;
   margin: 0;
 }
 
-.card-button > img {
+.card-button>img {
   grid-row: 1;
   grid-column: 2 / span 1;
   z-index: 2;
@@ -276,6 +276,16 @@ picture img {
 
 .modal-body {
   text-align: center;
+}
+
+/* REPOSITIONING TO ALLOW FIXED NAVBAR */
+
+.hero,
+.hero-image,
+main,
+footer {
+  position: relative;
+  top: 90px;
 }
 
 /* === TABLET LAYOUT BREAKPOINT === */
@@ -375,7 +385,7 @@ picture img {
     padding: 140px 0 0 0;
   }
 
-  .card > h3 {
+  .card>h3 {
     margin: 40px 80px 20px;
   }
 
@@ -438,9 +448,9 @@ picture img {
     margin: 80px;
   }
 
-  .card-instruments > p,
-  .card-dances > p,
-  .card-history > p {
+  .card-instruments>p,
+  .card-dances>p,
+  .card-history>p {
     margin: 0 80px;
   }
 
@@ -489,9 +499,9 @@ picture img {
 
   /* ADJUST LAYOUT FOR INSTRUMENTS, DANCE, HISTORY PAGE */
 
-  .card-instruments > picture,
-  .card-dances > picture,
-  .card-history > picture {
+  .card-instruments>picture,
+  .card-dances>picture,
+  .card-history>picture {
     position: absolute;
     left: 0;
   }
@@ -534,7 +544,7 @@ picture img {
     height: 802px;
   }
 
-  .card-history > picture > img {
+  .card-history>picture>img {
     height: 401px;
   }
 
