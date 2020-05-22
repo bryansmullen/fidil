@@ -18,28 +18,34 @@
     <!-- Header -->
     <header class="fixed-top">
         <nav class="navbar navbar-expand-custom p-0 navbar-dark">
+
             <a class="navbar-brand m-0 p-0" href="./index.html"><img id="brand" src="./assets/img/fidil_logo.svg"
-                    alt="Fidil logo" height="56"></a>
+                    alt="Fidil logo" height="56" aria-label="navigate to home page" />
+            </a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-0" href="./instruments.html">Instruments</a>
-                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link p-0" href="./dances.html">Dances <span class="sr-only">(current)</span></a>
+                        <a class="nav-link p-0" href="./index.html" aria-label="navigate to home page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="./instruments.html"
+                            aria-label="navigate to instruments page">Instruments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0" href="./dances.html" aria-label="current page">Dances</a>
                     </li>
                     <li class="nav-item last">
-                        <a class="nav-link  p-0" href="./history.html">History</a>
+                        <a class="nav-link p-0" href="./history.html" aria-label="navigate to history page">History</a>
                     </li>
                 </ul>
             </div>
+
         </nav>
     </header>
 
@@ -87,7 +93,8 @@
                 these countries. The jig is second in popularity only to the reel in traditional Irish dance; it is
                 popular but somewhat less common in Scottish country dance music.
             </p>
-            <a href="#" data-toggle="modal" data-target="#jigsModal" class="card-button">
+            <a href="#" data-toggle="modal" data-target="#jigsModal" class="card-button"
+                aria-label="read more about jigs">
                 <div class="red"></div>
                 <p class="read-more-link">Read More</p>
                 <img src="./assets/img/icon_arrow.svg" alt="arrow icon" />
@@ -117,7 +124,8 @@
                 eighteenth century it thrived. Later it was introduced to North America by English, Scottish, and
                 Irish colonists and immigrants.
             </p>
-            <a href="#" data-toggle="modal" data-target="#reelsModal" class="card-button">
+            <a href="#" data-toggle="modal" data-target="#reelsModal" class="card-button"
+                aria-label="read more about reels">
                 <div class="red"></div>
                 <p class="read-more-link">Read More</p>
                 <img src="./assets/img/icon_arrow.svg" alt="arrow icon" />
@@ -149,7 +157,8 @@
                 will do the slow hornpipe but younger dancers will start out with the fast hornpipe and then switch
                 in later years.
             </p>
-            <a href="#" data-toggle="modal" data-target="#hornpipesModal" class="card-button">
+            <a href="#" data-toggle="modal" data-target="#hornpipesModal" class="card-button"
+                aria-label="read more about hornpipes">
                 <div class="red"></div>
                 <p class="read-more-link">Read More</p>
                 <img src="./assets/img/icon_arrow.svg" alt="arrow icon" />
@@ -161,18 +170,20 @@
     <footer>
         <ul class="nav footer-nav">
             <li class="nav-item">
-                <a href="#" class="footer-link" data-toggle="modal" data-target="#contactModal">
+                <a href="#" class="footer-link" data-toggle="modal" data-target="#contactModal"
+                    aria-label="show contact modal">
                     Contact
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="footer-link" data-toggle="modal" data-target="#aboutModal">
+                <a href="#" class="footer-link" data-toggle="modal" data-target="#aboutModal"
+                    aria-label="show about modal">
                     About
                 </a>
             </li>
         </ul>
-        <a class="footer-logo" href="./index.html">
-            <img src="./assets/img/fidil_logo.svg" alt="Fidil Logo" height="56">
+        <a class="footer-logo" href="./index.html" aria-label="navigate to home page">
+            <img src="./assets/img/fidil_logo.svg" alt="Fidil Logo" height="56" />
         </a>
     </footer>
 
@@ -192,9 +203,10 @@
                     get in touch on either my LinkedIn or Github using the links below and I will get back to you as
                     soon as I can!
                 </div>
-                <div class="modal-footer"> <a href="http://www.linkedin.com/in/bryansmullen"
-                        target="_blank">LinkedIn</a>
-                    <a href="https://github.com/bryansmullen/" target="_blank">Github</a></div>
+                <div class="modal-footer"> <a href="http://www.linkedin.com/in/bryansmullen" target="_blank"
+                        aria-label="navigate to developers linkedin page">LinkedIn</a>
+                    <a href="https://github.com/bryansmullen/" target="_blank"
+                        aria-label="navigate to developers github page">Github</a></div>
 
             </div>
         </div>
