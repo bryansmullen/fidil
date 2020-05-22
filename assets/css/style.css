@@ -4,6 +4,7 @@
 
 html {
   background-color: #f26c05;
+  font-size: 16px;
 }
 
 body {
@@ -108,9 +109,9 @@ p,
 /* HEADER & NAVBAR POSITIONING & COLOR */
 
 header {
-  padding: 16px 0;
+  padding: 1rem 0;
   background-color: #04b2d9;
-  border-bottom: 2px solid #0378a6;
+  border-bottom: 0.125rem solid #0378a6;
 }
 
 nav.navbar {
@@ -124,8 +125,8 @@ header .nav-link {
 }
 
 header .nav-item {
-  border-top: 2px solid #0378a6;
-  padding: 16px 0;
+  border-top: 0.125rem solid #0378a6;
+  padding: 1rem 0;
   text-align: center;
 }
 
@@ -134,7 +135,7 @@ header .nav-item.last {
 }
 
 .navbar-collapse {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .navbar-dark .navbar-toggler {
@@ -152,11 +153,11 @@ footer {
 }
 
 footer li {
-  margin: 48px 20px;
+  margin: 3rem 1.25rem;
 }
 
 footer img {
-  margin-bottom: 48px;
+  margin-bottom: 3rem;
 }
 
 /* HIDE IMAGE ON PHONE LAYOUT */
@@ -184,7 +185,7 @@ footer img {
 }
 
 .hero-logo h2 {
-  margin-top: 32px;
+  margin-top: 2rem;
 }
 
 /* MAIN CONTENT - SITE WIDE STYLES */
@@ -202,12 +203,12 @@ picture img {
 }
 
 .card>h3 {
-  margin: 40px 40px 0 40px;
+  margin: 2.5rem 2.5rem 0 2.5rem;
   text-align: center;
 }
 
 .card>p {
-  margin: 16px 40px 0 40px;
+  margin: 1rem 2.5rem 0 2.5rem;
   text-align: justify;
 }
 
@@ -218,8 +219,8 @@ picture img {
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
-  margin: 24px 40px 54px;
-  height: 56px;
+  margin: 1.5rem 2.5rem 3.5rem;
+  height: 3.5rem;
 }
 
 .card-button:hover {
@@ -265,8 +266,8 @@ picture img {
 .modal-header button.close {
   margin: 0;
   position: absolute;
-  right: 12px;
-  top: 8px;
+  right: 0.75rem;
+  top: 0.5rem;
 }
 
 .modal-footer {
@@ -308,7 +309,7 @@ footer {
     padding: 0;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 32px;
+    margin-left: 2rem;
   }
 
   .navbar-collapse {
@@ -347,7 +348,7 @@ footer {
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: left;
-    padding: 64px 0;
+    padding: 4rem 0;
   }
 
   .footer-nav,
@@ -365,7 +366,7 @@ footer {
   }
 
   footer .nav-item {
-    margin: 0 48px 0 0;
+    margin: 0 3rem 0 0;
   }
 
   /* HERO SECTION - SHOW IMAGE ON TABLET & WEB */
@@ -382,11 +383,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 788px 1fr;
     grid-template-rows: 1fr;
-    padding: 140px 0 0 0;
+    padding: 8.75rem 0 0 0;
   }
 
   .card>h3 {
-    margin: 40px 80px 20px;
+    margin: 2.5rem 5rem 1.25rem;
   }
 
   .card-container-home {
@@ -399,8 +400,8 @@ footer {
 
   .card-container-home .card {
     width: 45%;
-    margin: 0 2.5% 80px 2.5%;
-    padding-bottom: 120px;
+    margin: 0 2.5% 5rem 2.5%;
+    padding-bottom: 7.5rem;
   }
 
   /* OVERLAY SVG PATTERNED BACKGROUND */
@@ -416,9 +417,9 @@ footer {
 
   .card-button {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    margin-bottom: 32px;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2rem;
     width: 200px;
   }
 
@@ -444,14 +445,14 @@ footer {
   .card-instruments,
   .card-dances,
   .card-history {
-    padding-bottom: 120px;
-    margin: 80px;
+    padding-bottom: 7.5rem;
+    margin: 5rem;
   }
 
   .card-instruments>p,
   .card-dances>p,
   .card-history>p {
-    margin: 0 80px;
+    margin: 0 5rem;
   }
 
   /* MODAL ENLARGEMENT FOR TABLET & WEB */
@@ -494,7 +495,7 @@ footer {
 
   .card-container-home {
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
   }
 
   /* ADJUST LAYOUT FOR INSTRUMENTS, DANCE, HISTORY PAGE */
@@ -509,13 +510,13 @@ footer {
   .card-instruments h3,
   .card-dances h3,
   .card-history h3 {
-    margin: 80px 0 40px 0;
+    margin: 5rem 0 2.5rem 0;
   }
 
   .card-instruments,
   .card-dances,
   .card-history {
-    padding: 0 5% 120px 45%;
+    padding: 0 5% 7.5rem 45%;
     height: 823px;
   }
 
