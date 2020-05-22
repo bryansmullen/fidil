@@ -109,6 +109,17 @@ p,
 
 /* === MOBILE FIRST STYLES === */
 
+.brand-svg {
+  height: 56px;
+}
+
+.pattern {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 /* HEADER & NAVBAR POSITIONING & COLOR */
 
 header {
