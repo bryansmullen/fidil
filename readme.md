@@ -320,7 +320,7 @@ The following insights were gained from the testing process.
 
 - Fidil Logo will lead to home page on all pages, not possible in prototype.
 - Hover and click states of all links to be consistent - light color for hover, dark color for click.
-- "Read More" button should have micro interaction for hover and click states.
+- **Read More** button should have micro interaction for hover and click states.
 - Modal can be closed in multiple ways, this will be retained.
 - External LinkedIn & Github links will be functioning in final developed website.
 - Images require standardisation across all layouts at respective resolutions and sizes.
@@ -332,7 +332,7 @@ The following insights were gained from the testing process.
 - Home link not working on web history page, this will be fixed on developed website.
 - Bodhran image has once again reverted to incorrect image on phone layout. Flagged to be fixed.
 - Tendancy for people to go first to header for contact link, then footer. This will be accepted to separate primary navigation from secondary.
-- One user reported scrolling to be arduous in their browser, will consider adding a "back to top" button in development.
+- One user reported scrolling to be arduous in their browser, will consider adding a **back to top** button in development.
 
 #### 6.3.3. <a name='KnownIssues'></a>Known Issues
 
@@ -355,14 +355,14 @@ This project is deployed on Github Pages, which can be accessed at [Fidil Github
 The following procedure was followed to deploy on Github Pages.
 
 1. Navigate to the [Github Repo](https://github.com/bryansmullen/fidil)
-2. Select the "Settings" tab
-3. Scroll down to the "Github Pages" section
-4. Under the "Source" dropdown, select "Master Branch"
-5. Under "Theme" click "Change Theme" and then click the "Select Theme" button
+2. Select the **Settings** tab
+3. Scroll down to the **Github Pages** section
+4. Under the **Source** dropdown, select **Master Branch**
+5. Under **Theme** click **Change Theme** and then click the **Select Theme** button
 
 ### 7.2. <a name='Differencesbetweendeployedversionanddevelopmentversion'></a>Differences between deployed version and development version
 
-A second "Develop" branch also exists in this repository to allow changes and updates to be made to this project without disturbing either the master branch or the live deployment. At the time of submission of this project, both the Master Branch and the Develop Branch are in sync.
+A second **Develop** branch also exists in this repository to allow changes and updates to be made to this project without disturbing either the master branch or the live deployment. At the time of submission of this project, both the Master Branch and the Develop Branch are in sync.
 
 The process for updating the project in future will be to make all changes on the Develop branch, or on additional feature branches, and only merge back to the Master Branch once a fully functional version is ready to commit.
 
@@ -373,7 +373,7 @@ To clone this project locally, complete the following steps:
 1. Open a new Command Line Editor on your computer
 2. Navigate to the folder you wish to create the local copy of this repo using the `cd` command. e.g. `cd my_directory`
 3. Clone the remote repository using the git clone command. `git clone https://github.com/bryansmullen/fidil`
-4. Open the newly created "fidil" directory in your favourite IDE.
+4. Open the newly created **fidil** directory in your favourite IDE.
 
 ---
 
@@ -430,6 +430,6 @@ I received inspiration for this project from:
 - [The Session](https://thesession.org/tunes)
 - [Online Academy of Irish Music](https://www.oaim.ie/)
 
-I received much advice, coaching and steering towards good development practice on this project from my Code Institute mentor Precious Ijege.
+I received much advice, coaching and steering towards good development practice on this project from my Code Institute mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/).
 
-Special thanks to [David](https://www.linkedin.com/in/david-mullen-4b90ba91/), Gillian, and [Patricio](https://www.linkedin.com/in/pharteg/) for help in the testing stages.
+Special thanks to [David](https://www.linkedin.com/in/david-mullen-4b90ba91/), Gillian, and [Patricio](https://www.linkedin.com/in/pharteg/) for help in the testing stages, as well as [Carlos](https://github.com/BetaHope), Ngiap, Orla, and [Simen](https://www.linkedin.com/in/simendaehlin/) for their very helpful feedback.
