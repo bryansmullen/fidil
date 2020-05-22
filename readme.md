@@ -10,67 +10,62 @@ While there are already Irish Traditional Music resources available online, many
 
 ---
 
-## 1. Contents
+## Contents
 
-<!-- vscode-markdown-toc -->
+1. [Contents](#Contents)  
+2. [Project Background](#Project-Background)  
+3. [UX Design](#UX-Design)  
+     - [Goals](#Goals)  
+     - [User Stories](#User-Stories)  
+     - [Wireframes](#Wireframes)  
+     - [Color Palette](#Color-Palette)  
+     - [Typography](#Typography)  
+     - [Imagery](#Imagery)  
+     - [Prototype](#Prototype)  
+     - [Development](#Development)  
+4. [Features](#Features)  
+     - [Existing Features](#Existing-Features)  
+     - [Features Left to Implement](#Features-Left-to-Implement)  
+5. [Technologies Used](#TechnologiesUsed)  
+     - [Languages](#Languages)  
+     - [Libraries](#Libraries)  
+     - [Other Tools](#Other-Tools)  
+6. [Testing](#Testing)  
+     - [Test Process](#Test-Process)  
+     - [Tests Conducted](#Tests-Conducted)  
+       - [Prototype Functionality Tests](#Prototype-Functionality-Tests)  
+       - [Prototype Design Tests](#Prototype-Design-Tests)  
+       - [Finished Project Tests](#Finished-Project-Tests)  
+       - [Validation](#Validation)  
+       - [Modelled Device Testing](#Modelled-Device-Testing)  
+       - [Automated Cross Browser Testing](#Automated-Cross-Browser-Testing)  
+       - [Manual Cross Browser Testing](#Manual-Cross-Browser-Testing)  
+     - [Test Insights](#Test-Insights)  
+       - [Prototype Functionality Insights](#Prototype-Functionality-Insights)  
+       - [Prototype Design Insights](#Prototype-Design-Insights)  
+       - [Known Issues](#Known-Issues)  
+7. [Deployment](#Deployment)  
+     - [Deploying on Github Pages](#Deploying-on-Github-Pages)  
+     - [Differences between deployed version and development version](#Differences-between-deployed-version-and-development-version)  
+     - [Cloning a local version](#Cloning-a-local-version)  
+8. [Credits](#Credits)  
+     - [Content](#Content)  
+     - [Media](#Media)  
+     - [Acknowledgements](#Acknowledgements)  
 
-- 1. [Contents](#Contents)
-- 2. [Project Background](#ProjectBackground)
-- 3. [UX Design](#UXDesign)
-     - 3.1. [Goals](#Goals)
-     - 3.2. [User Stories](#UserStories)
-     - 3.3. [Wireframes](#Wireframes)
-     - 3.4. [Color Palette](#ColorPalette)
-     - 3.5. [Typography](#Typography)
-     - 3.6. [Imagery](#Imagery)
-     - 3.7. [Prototype](#Prototype)
-     - 3.8. [Development](#Development)
-- 4. [Features](#Features)
-     - 4.1. [Existing Features](#ExistingFeatures)
-     - 4.2. [Features Left to Implement](#FeaturesLefttoImplement)
-- 5. [Technologies Used](#TechnologiesUsed)
-     - 5.1. [Languages](#Languages)
-     - 5.2. [Libraries](#Libraries)
-     - 5.3. [Other Tools](#OtherTools)
-- 6. [Testing](#Testing)
-     - 6.1. [Test Process](#TestProcess)
-     - 6.2. [Tests Conducted](#TestsConducted)
-          - 6.2.1. [Prototype Functionality Tests](#PrototypeFunctionalityTests)
-          - 6.2.2. [Prototype Design Tests](#PrototypeDesignTests)
-          - 6.2.3. [Finished Project Tests](#FinishedProjectTests)
-          - 6.2.4. [Validation](#Validation)
-          - 6.2.5. [Modelled Device Testing](#ModelledDeviceTesting)
-          - 6.2.6. [Automated Cross Browser Testing](#AutomatedCrossBrowserTesting)
-          - 6.2.7. [Manual Cross Browser Testing](#ManualCrossBrowserTesting)
-     - 6.3. [Test Insights](#TestInsights)
-          - 6.3.1. [Prototype Functionality Insights](#PrototypeFunctionalityInsights)
-          - 6.3.2. [Prototype Design Insights](#PrototypeDesignInsights)
-          - 6.3.3. [Known Issues](#KnownIssues)
-- 7. [Deployment](#Deployment)
-     - 7.1. [Deploying on Github Pages](#DeployingonGithubPages)
-     - 7.2. [Differences between deployed version and development version](#Differencesbetweendeployedversionanddevelopmentversion)
-     - 7.3. [Cloning a local version](#Cloningalocalversion)
-- 8. [Credits](#Credits)
-     - 8.1. [Content](#Content)
-     - 8.2. [Media](#Media)
-     - 8.3. [Acknowledgements](#Acknowledgements)
-
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-
-## 2. Project Background
+## Project Background
 
 This project is being completed as part of a Full Stack Developer Diploma award. This forms the basis for the developer's first milestone project. As such it will be completed within a set of guidelines as to which technologies to use.
 
 While the core focus of the project is to be submitted as summative assessment for the student developers course, it is also hoped that the resource itself, and the brand created for it can be developed over time into something that can be of value to the wider community.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 3. UX Design
+## UX Design
 
-### 3.1. Goals
+### Goals
 
 Design phase goals:
 
@@ -87,7 +82,7 @@ The website is conceived as a resource for hobbyist musicians who want an easy t
 - [Hobbyist Musician](https://github.com/bryansmullen/fidil/blob/master/pre-production/User%20Profiles/user_profile_mark.pdf)
 - [Content Creator](https://github.com/bryansmullen/fidil/blob/master/pre-production/User%20Profiles/user_profile_sarah.pdf)
 
-### 3.2. User Stories
+### User Stories
 
 With the target users in mind, the following user stories are generated.
 
@@ -98,7 +93,7 @@ With the target users in mind, the following user stories are generated.
 - As a music enthusiast, I want to read about Irish Music so that I can develop my own sense of Irish culture.
 - As a content creator, I want to be able to contact online Irish Music platforms so that I might have my writing on the topic published.
 
-### 3.3. Wireframes
+### Wireframes
 
 Once the user stories are completed, [wireframes](https://xd.adobe.com/view/ddf5e229-2703-4fcc-4d65-98d347cce994-abc4/?fullscreen) are generated to form the layout of the website which allow the target user to achieve their goals. The wireframes are generated to accomodate three different screen sizes in a responsive layout:
 
@@ -106,7 +101,7 @@ Once the user stories are completed, [wireframes](https://xd.adobe.com/view/ddf5
 - iPad Pro (12.9")
 - iPhone X
 
-### 3.4. Color Palette
+### Color Palette
 
 Next the brand is designed. This involves the creation of a [logo](https://github.com/bryansmullen/fidil/blob/master/assets/img/fidil_logo.svg), compiling of a [color palette](https://color.adobe.com/Fidil-Options-color-theme-15024567), and selection of appropriate [font choices](https://use.typekit.net/hmk0dts.css).
 
@@ -114,19 +109,19 @@ The colors palette chosen for the brand consist of blues and oranges. The blues 
 
 The orange shade derives from a shade of orange found in the wood of a picture of a fiddle, and this same photo also forms the basis of the curve of the logo. The blue shades, as well as the red shade are then selected using [Adobe Color Picker](https://color.adobe.com/create) to experiment and find shades to compliment.
 
-### 3.5. Typography
+### Typography
 
 [Century gothic](https://fonts.adobe.com/fonts/century-gothic) is selected as the primary typeface for the major headings because of its modern, sleek design, as well as it's striking look in headings and logos. It is well supported across modern browsers according to [fonts.com](https://www.fonts.com/font/monotype/century-gothic/story). [Minion Pro](https://fonts.adobe.com/fonts/minion) is chosen to compliment it through the body text, and it is recommended by [bonfx.com](https://bonfx.com/fonts-that-go-with-century-gothic/) as a less serious, more friendly pairing than some of the other options available.
 
-### 3.6. Imagery
+### Imagery
 
 [Shutterstock](https://www.shutterstock.com/) is used as the primary source of imagery for the website as it provides high quality images available for licensing. Licenses have been obtained for all imagery used in this project in line with their Standard License.
 
-### 3.7. Prototype
+### Prototype
 
 With these decisions in place a high fidelity [prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/) is created drawing together all strands of the design to show what the developed project will look like. Decisions such as placement of content, sizing of images, application of color and typography palettes are taken at this point. Once completed, the prototype undergoes testing to ensure that content is easily accessible to first-time users, and testing insights are documented. Once testing is completed, the development assets are exported in the form of jpg and svg files, in appropriate sizes for each device as applicable.
 
-### 3.8. Development
+### Development
 
 Development phase goals
 
@@ -149,11 +144,13 @@ Once completed the initial deployment takes place on Github Pages, at which poin
 
 Once final adjustments are made the project is committed to and submitted.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 4. Features
+## Features
 
-### 4.1. Existing Features
+### Existing Features
 
 - Home page - allows all users to access the top level navigation of the website, by interacting with the navigation bar, or the individual content cards.
 - Instruments page - allows music enthusiasts to learn basic information about different instruments, by reading each individual instrument card.
@@ -163,29 +160,31 @@ Once final adjustments are made the project is committed to and submitted.
 - History page - allows music enthusiasts to read articles about Irish Music by selecting an article using the 'Read More' feature.
 - Contact modal - allows content creators to get in contact with the developer by selecting one of the contact options available in the contact modal.
 
-### 4.2. Features Left to Implement
+### Features Left to Implement
 
 - MIDI playback tool - Develop a MIDI player which can organise tunes into sets and play them back at desired tempo to practice to.
 - History database - develop a dynamic webpage which automatically organises content in the History page into searchable categories based on topic, date, and popularity.
 - Tune database - develop a system for users to submit their own tunes in a way which will be compatible with the MIDI playback tool, and which will group different settings of the same tune in a simple, elegant fashion.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 5. Technologies Used
+## Technologies Used
 
 In this section, I will mention all of the languages, frameworks, libraries, and any other tools that I have used to construct this project.
 
-### 5.1. Languages
+### Languages
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) is used to render the content of the website.
 - [CSS3](https://www.w3.org/Style/CSS/#specs) is used to style the content of the website.
 
-### 5.2. Libraries
+### Libraries
 
 - [Bootstrap 4.4](https://getbootstrap.com/) is used to aid with the layout and styling of the website, particularly mobile navigation and modals.
 - [JQuery](https://jquery.com) is used to allow Bootstrap to function.
 
-### 5.3. Other Tools
+### Other Tools
 
 - [Adobe XD](https://www.adobe.com/ie/products/xd.html) waiss used to construct both wireframes and prototypes.
 - [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) and [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) are used to create design assets.
@@ -196,23 +195,25 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [Github](https://github.com/) is used as a remote repository for the site, as well as for deployment of the final version.
 - [BrowserStack](https://www.browserstack.com) is used during the testing phase to visualise how the site will render on different browsers.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 6. Testing
+## Testing
 
-### 6.1. Test Process
+### Test Process
 
 Testing is carried out at three phases to evaluate the prototypes functionality, the intuitiveness of the design, and finally verify the functionality of the final product.
 
-### 6.2. Tests Conducted
+### Tests Conducted
 
-#### 6.2.1. Prototype Functionality Tests
+#### Prototype Functionality Tests
 
 The function of these tests is to verify all links in the prototype lead to the expected locations, so that it is possible to proceed with testing the layout with a new user.
 
 [Prototype functionality tests](https://we.tl/t-lNyKGpBiHT)
 
-#### 6.2.2. Prototype Design Tests
+#### Prototype Design Tests
 
 The function of these tests is to ensure the design choices have resulted in an intuitive layout that facilitates first time learning and ease of locating the desired information.
 
@@ -227,7 +228,7 @@ The following tasks were set to the user to ensure intuitive layout:
 
 [Prototype design tests](https://we.tl/t-akHu55OIfG)
 
-#### 6.2.3. Finished Project Tests
+#### Finished Project Tests
 
 The function of these tests is to ensure that the finished project renders in an acceptable fashion on all intended devices. Four sets of tests were completed:
 
@@ -236,7 +237,7 @@ The function of these tests is to ensure that the finished project renders in an
 - Automated Cross Browser Testing
 - Manual Browser Testing
 
-#### 6.2.4. Validation
+#### Validation
 
 Further to this, all HTML and CSS in this project is validated by using the [W3C Markup Validation Service](https://validator.w3.org/) and the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
@@ -244,7 +245,7 @@ Further to this, all HTML and CSS in this project is validated by using the [W3C
 
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)CSS Validated without errors on 19 May 2020
 
-#### 6.2.5. Modelled Device Testing
+#### Modelled Device Testing
 
 To test the layout on multiple devices, Google Chrome DevTools is used to simulate the size of multiple devices and screen ratios. Screen responsiveness has been noted to ensure the correct screen ratio was delivered, links are tested by clicking through, images are checked to ensure they displayed correctly on all devices, and the website as a whole is checked to ensure everything renders as expected. Any faults or issues were noted in the [testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf).
 
@@ -264,7 +265,7 @@ The following device dimensions are tested:
 - Laptop L 1440px
 - 4k -2560px
 
-#### 6.2.6. Automated Cross Browser Testing
+#### Automated Cross Browser Testing
 
 To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on a number of different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the[testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf). The following browsers are tested:
 
@@ -292,7 +293,7 @@ To test the layout on multiple browsers, [browserstack](https://www.browserstack
 
 Note that throughout this set of testing all Opera browser testing did not render, so these results were deemed inconclusive. Microsoft Edge and Chrome 69 produce a minor issue where blend mode did not render. Internet Explorer is unable to correctly render the website.
 
-#### 6.2.7. Manual Cross Browser Testing
+#### Manual Cross Browser Testing
 
 To complement the above results the website is also tested manually on up-to-date browsers available on the developer's machine. The results are once again documented in the[testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf).
 
@@ -309,11 +310,11 @@ The following browsers are tested:
 - Windows 10 Microsoft Edge 44.18362.387.0
 - Windows 10 Google Chrome 81.0.4044.138 (Official Build) (64 Bit)
 
-### 6.3. Test Insights
+### Test Insights
 
 The following insights were gained from the testing process.
 
-#### 6.3.1. Prototype Functionality Insights
+#### Prototype Functionality Insights
 
 - Fidil Logo will lead to home page on all pages, not possible in prototype.
 - Hover and click states of all links to be consistent - light color for hover, dark color for click.
@@ -324,14 +325,14 @@ The following insights were gained from the testing process.
 - Bodhran photo to be corrected on phone layout.
 - Font size on modals to be reduced on phone layout.
 
-#### 6.3.2. Prototype Design Insights
+#### Prototype Design Insights
 
 - Home link not working on web history page, this will be fixed on developed website.
 - Bodhran image has once again reverted to incorrect image on phone layout. Flagged to be fixed.
 - Tendancy for people to go first to header for contact link, then footer. This will be accepted to separate primary navigation from secondary.
 - One user reported scrolling to be arduous in their browser, will consider adding a **back to top** button in development.
 
-#### 6.3.3. Known Issues
+#### Known Issues
 
 The following issues have been noted from the Finished Project Tests:
 
@@ -342,13 +343,15 @@ The following issues have been noted from the Finished Project Tests:
 - On screen sizes between Pixel 2 and iPhone X The history page modals create a collision between the longer title and the modal close button.
 - Bootstrap can potentially be removed from this project and the navbar, modals, and custom breakpoints may be delivered using CSS or possible JS. Consider for next update of site.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 7. Deployment
+## Deployment
 
 This project is deployed on Github Pages, which can be accessed at [Fidil Github Repo](https://github.com/bryansmullen/fidil) or [Fidil Deployed Version](https://bryansmullen.github.io/fidil/). The deployment is linked to the Master Branch of the repo, and will automatically update the deployment when any changes are committed to this branch of the remote repository.
 
-### 7.1. Deploying on Github Pages
+### Deploying on Github Pages
 
 The following procedure was followed to deploy on Github Pages.
 
@@ -358,13 +361,13 @@ The following procedure was followed to deploy on Github Pages.
 4. Under the **Source** dropdown, select **Master Branch**
 5. Under **Theme** click **Change Theme** and then click the **Select Theme** button
 
-### 7.2. Differences between deployed version and development version
+### Differences between deployed version and development version
 
 A second **Develop** branch also exists in this repository to allow changes and updates to be made to this project without disturbing either the master branch or the live deployment. At the time of submission of this project, both the Master Branch and the Develop Branch are in sync.
 
 The process for updating the project in future will be to make all changes on the Develop branch, or on additional feature branches, and only merge back to the Master Branch once a fully functional version is ready to commit.
 
-### 7.3. Cloning a local version
+### Cloning a local version
 
 To clone this project locally, complete the following steps:
 
@@ -373,11 +376,13 @@ To clone this project locally, complete the following steps:
 3. Clone the remote repository using the git clone command. `git clone https://github.com/bryansmullen/fidil`
 4. Open the newly created **fidil** directory in your favourite IDE.
 
+[BACK TO CONTENTS](#Contents)
+
 ---
 
-## 8. Credits
+## Credits
 
-### 8.1. Content
+### Content
 
 The text content from the website was copied from Wikipedia
 [Home Instruments Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
@@ -400,7 +405,7 @@ The svg background pattern was based on a tutorial from [webdesign.tutsplus.com]
 
 The customisation of bootstrap navbar toggler breakpoint was adapted from a thread on [stack overflow](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less)
 
-### 8.2. Media
+### Media
 
 The photos used in this site were obtained from:
 
@@ -420,7 +425,7 @@ The photos used in this site were obtained from:
   - 258054788
   - 752652976
 
-### 8.3. Acknowledgements
+### Acknowledgements
 
 I received inspiration for this project from:
 
@@ -431,3 +436,5 @@ I received inspiration for this project from:
 I received much advice, coaching and steering towards good development practice on this project from my Code Institute mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/).
 
 Special thanks to [David](https://www.linkedin.com/in/david-mullen-4b90ba91/), Gillian, and [Patricio](https://www.linkedin.com/in/pharteg/) for help in the testing stages, as well as [Carlos](https://github.com/BetaHope), Ngiap, Orla, and [Simen](https://www.linkedin.com/in/simendaehlin/) for their very helpful feedback.
+
+[BACK TO TOP](#Fidil)
