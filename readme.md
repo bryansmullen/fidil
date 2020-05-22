@@ -343,6 +343,7 @@ The following issues have been noted from the Finished Project Tests:
 - The website is incompatible with Internet Explorer version 11 and earlier.
 - The Fidil logo becomes unusually large on iPhone Safari in landscape orientation.
 - On screen sizes between Pixel 2 and iPhone X The history page modals create a collision between the longer title and the modal close button.
+- Bootstrap can potentially be removed from this project and the navbar, modals, and custom breakpoints may be delivered using CSS or possible JS. Consider for next update of site.
 
 ---
 
