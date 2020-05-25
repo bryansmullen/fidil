@@ -18,7 +18,7 @@ While there are already Irish Traditional Music resources available online, many
    - [Goals](#Goals)
    - [User Stories](#User-Stories)
    - [Wireframes](#Wireframes)
-   - [Color Palette](#Color-Palette)
+   - [Colour Palette](#Color-Palette)
    - [Typography](#Typography)
    - [Imagery](#Imagery)
    - [Prototype](#Prototype)
@@ -105,7 +105,7 @@ Once the user stories are completed, [wireframes](https://xd.adobe.com/view/ddf5
 
 Next, the brand is designed. This involves the creation of a [logo](https://github.com/bryansmullen/fidil/blob/master/assets/img/fidil_logo.svg), compiling of a [color palette](https://color.adobe.com/Fidil-Options-color-theme-15024567), and selection of appropriate [font choices](https://use.typekit.net/hmk0dts.css).
 
-The colours palette chosen for the brand consist of blues and oranges. The blues represent the refreshing, reliable nature of the website delivering the content, while the orange represents the vibrant creativity inherent in Irish music.
+The colors palette chosen for the brand consist of blues and oranges. The blues represent the refreshing, reliable nature of the website delivering the content, while the orange represents the vibrant creativity inherent in Irish music.
 
 The orange shade derives from a shade of orange found in the wood of a picture of a fiddle, and this same photo also forms the basis of the curve of the logo. The blue shades, as well as the red shade, are then selected using [Adobe Color Picker](https://color.adobe.com/create) to experiment and find shades to compliment.
 
