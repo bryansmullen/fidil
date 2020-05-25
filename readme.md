@@ -4,9 +4,9 @@
 
 ![Banner Image](pre-production/fidil_mockup_banner.jpg)
 
-**Fidil** is an online Irish Traditional Music resource which delivers content in a bitesized, aesthetically pleasing manner which appeals to the hobbyist musician.
+**Fidil** is an online Irish Traditional Music resource which delivers content in a bite-sized, aesthetically pleasing manner which appeals to the hobbyist musician.
 
-While there are already Irish Traditional Music resources available online, many of them take time and effort to navigate. Fidil's focus is on simplicity, so that it is instantly accessible and intuitive to even the first time user.
+While there are already Irish Traditional Music resources available online, many of them take time and effort to navigate. Fidil's focus is on simplicity so that it is instantly accessible and intuitive to even the first time user.
 
 ---
 
@@ -57,7 +57,7 @@ While there are already Irish Traditional Music resources available online, many
 
 This project is being completed as part of a Full Stack Developer Diploma award. This forms the basis for the developer's first milestone project. As such it will be completed within a set of guidelines as to which technologies to use.
 
-While the core focus of the project is to be submitted as summative assessment for the student developers course, it is also hoped that the resource itself, and the brand created for it can be developed over time into something that can be of value to the wider community.
+While the core focus of the project is to be submitted as the summative assessment for the student developers course, it is also hoped that the resource itself, and the brand created for it can be developed over time into something that can be of value to the wider community.
 
 [BACK TO CONTENTS](#Contents)
 
@@ -72,7 +72,7 @@ Design phase goals:
 - Identify user profile
 - Generate user stories
 - Create wireframe
-- Develop brand identity
+- Develop a brand identity
 - Create high fidelity prototype
 - Test high fidelity prototype
 
@@ -89,37 +89,37 @@ With the target users in mind, the following user stories are generated.
 - As a music enthusiast, I want to know what different instruments are used in Irish music so that I can be more aware of what I am listening to.
 - As a hobbyist musician, I want to learn detailed information about individual instruments so that I can understand their various quirks and idiosyncrasies.
 - As a music enthusiast, I want to know about the different dance forms in Irish music so that I can understand why the musical forms are structured the way they are.
-- As a hobbyist musician, I want to learn detailed information about each individual dance style so that I understand how to better accompany each one.
-- As a music enthusiast, I want to read about Irish Music so that I can develop my own sense of Irish culture.
+- As a hobbyist musician, I want to learn detailed information about each dance style so that I understand how to better accompany each one.
+- As a music enthusiast, I want to read about Irish Music so that I can develop my sense of Irish culture.
 - As a content creator, I want to be able to contact online Irish Music platforms so that I might have my writing on the topic published.
 
 ### Wireframes
 
-Once the user stories are completed, [wireframes](https://xd.adobe.com/view/ddf5e229-2703-4fcc-4d65-98d347cce994-abc4/?fullscreen) are generated to form the layout of the website which allow the target user to achieve their goals. The wireframes are generated to accomodate three different screen sizes in a responsive layout:
+Once the user stories are completed, [wireframes](https://xd.adobe.com/view/ddf5e229-2703-4fcc-4d65-98d347cce994-abc4/?fullscreen) are generated to form the layout of the website which allow the target user to achieve their goals. The wireframes are generated to accommodate three different screen sizes in a responsive layout:
 
-- Macbook Pro (2019)
+- MacBook Pro (2019)
 - iPad Pro (12.9")
 - iPhone X
 
 ### Color Palette
 
-Next the brand is designed. This involves the creation of a [logo](https://github.com/bryansmullen/fidil/blob/master/assets/img/fidil_logo.svg), compiling of a [color palette](https://color.adobe.com/Fidil-Options-color-theme-15024567), and selection of appropriate [font choices](https://use.typekit.net/hmk0dts.css).
+Next, the brand is designed. This involves the creation of a [logo](https://github.com/bryansmullen/fidil/blob/master/assets/img/fidil_logo.svg), compiling of a [color palette](https://color.adobe.com/Fidil-Options-color-theme-15024567), and selection of appropriate [font choices](https://use.typekit.net/hmk0dts.css).
 
-The colors palette chosen for the brand consist of blues and oranges. The blues represent the refreshing, reliable nature of the website delivering the content, while the orange represents the vibrant creativity inherant in Irish music.
+The colours palette chosen for the brand consist of blues and oranges. The blues represent the refreshing, reliable nature of the website delivering the content, while the orange represents the vibrant creativity inherent in Irish music.
 
-The orange shade derives from a shade of orange found in the wood of a picture of a fiddle, and this same photo also forms the basis of the curve of the logo. The blue shades, as well as the red shade are then selected using [Adobe Color Picker](https://color.adobe.com/create) to experiment and find shades to compliment.
+The orange shade derives from a shade of orange found in the wood of a picture of a fiddle, and this same photo also forms the basis of the curve of the logo. The blue shades, as well as the red shade, are then selected using [Adobe Color Picker](https://color.adobe.com/create) to experiment and find shades to compliment.
 
 ### Typography
 
-[Century gothic](https://fonts.adobe.com/fonts/century-gothic) is selected as the primary typeface for the major headings because of its modern, sleek design, as well as it's striking look in headings and logos. It is well supported across modern browsers according to [fonts.com](https://www.fonts.com/font/monotype/century-gothic/story). [Minion Pro](https://fonts.adobe.com/fonts/minion) is chosen to compliment it through the body text, and it is recommended by [bonfx.com](https://bonfx.com/fonts-that-go-with-century-gothic/) as a less serious, more friendly pairing than some of the other options available.
+[Century gothic](https://fonts.adobe.com/fonts/century-gothic) is selected as the primary typeface for the major headings because of its modern, sleek design, as well as it's striking look in headings and logos. It is well supported across modern browsers according to [fonts.com](https://www.fonts.com/font/monotype/century-gothic/story). [Minion Pro](https://fonts.adobe.com/fonts/minion) is chosen to complement it through the body text, and it is recommended by [bonfx.com](https://bonfx.com/fonts-that-go-with-century-gothic/) as a less serious, more friendly pairing than some of the other options available.
 
 ### Imagery
 
-[Shutterstock](https://www.shutterstock.com/) is used as the primary source of imagery for the website as it provides high quality images available for licensing. Licenses have been obtained for all imagery used in this project in line with their Standard License.
+[Shutterstock](https://www.shutterstock.com/) is used as the primary source of imagery for the website as it provides high-quality images available for licensing. Licenses have been obtained for all imagery used in this project in line with their Standard License.
 
 ### Prototype
 
-With these decisions in place a high fidelity [prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/) is created drawing together all strands of the design to show what the developed project will look like. Decisions such as placement of content, sizing of images, application of color and typography palettes are taken at this point. Once completed, the prototype undergoes testing to ensure that content is easily accessible to first-time users, and testing insights are documented. Once testing is completed, the development assets are exported in the form of jpg and svg files, in appropriate sizes for each device as applicable.
+With these decisions in place, a high fidelity [prototype](https://xd.adobe.com/view/3b60cd6d-786b-40d6-638f-78cb19bc9942-4d51/) is created drawing together all strands of the design to show what the developed project will look like. Decisions such as placement of content, sizing of images, application of colour and typography palettes are taken at this point. Once completed, the prototype undergoes testing to ensure that content is easily accessible to first-time users, and testing insights are documented. Once testing is completed, the development assets are exported in the form of jpg and SVG files, at appropriate sizes for each device as applicable.
 
 ### Development
 
@@ -127,18 +127,18 @@ Development phase goals
 
 - Creation of index.html document
 - Styling of index.html using style.css and Bootstrap 4 library
-- Creation of additional html pages using common elements from index.html (header, footer etc)
+- Creation of additional HTML pages using common elements from index.html (header, footer etc)
 - Styling of additional pages
 - Initial deployment on Github Pages
 - Testing of deployed website
 - Final adjustments
 - Submission
 
-The development phase uses only the technologies covered in the course up until the point of Milestone Project One. These consist of HTML and CSS, extended by the Bootstrap 4 library. There is no custom Javascript or other technologies included for this release. The only exception is the use of elements within Bootstrap 4 which have pre programmed javascript/jquery behaviour, which may be utilised.
+The development phase uses only the technologies covered in the course up until the point of Milestone Project One. These consist of HTML and CSS, extended by the Bootstrap 4 library. There is no custom Javascript or other technologies included for this release. The only exception is the use of elements within Bootstrap 4 which have pre-programmed javascript/jquery behaviour, which may be utilised.
 
-Once completed the [index.html](https://github.com/bryansmullen/fidil/blob/master/index.html) file is created taking care to copy & paste all available copy so as not to risk typographical erros, and thereafter the [style.css](https://github.com/bryansmullen/fidil/blob/master/assets/css/style.css) file is created to style the page to match the specification, using Bootstrap where appropriate.
+Once completed the [index.html](https://github.com/bryansmullen/fidil/blob/master/index.html) file is created taking care to copy & paste all available copy so as not to risk typographical errors, and thereafter the [style.css](https://github.com/bryansmullen/fidil/blob/master/assets/css/style.css) file is created to style the page to match the specification, using Bootstrap where appropriate.
 
-Additional html files are created as necessary copying common elements from the index.html file such as headers and footers. Once created, the style.css file is amended to include styling for the additional pages.
+Additional HTML files are created as necessary copying common elements from the index.html file such as headers and footers. Once created, the style.css file is amended to include styling for the additional pages.
 
 Once completed the initial deployment takes place on Github Pages, at which point it is tested.
 
@@ -152,11 +152,11 @@ Once final adjustments are made the project is committed to and submitted.
 
 ### Existing Features
 
-- Home page - allows all users to access the top level navigation of the website, by interacting with the navigation bar, or the individual content cards.
-- Instruments page - allows music enthusiasts to learn basic information about different instruments, by reading each individual instrument card.
-- Instrument modal - allows hobbyist musicians to learn mroe in-depth information about each instrument by activating the individual instrument modal.
-- Dances page - allows music enthusiasts to learn basic information about different dances, by reading each individual dance card.
-- Dance modal - allows hobbyist musicians to learn mroe in-depth information about each dance type by activating the individual dance modal.
+- Home page - allows all users to access the top-level navigation of the website, by interacting with the navigation bar, or the individual content cards.
+- Instruments page - allows music enthusiasts to learn basic information about different instruments, by reading each instrument card.
+- Instrument modal - allows hobbyist musicians to learn more in-depth information about each instrument by activating the individual instrument modal.
+- Dances page - allows music enthusiasts to learn basic information about different dances, by reading each dance card.
+- Dance modal - allows hobbyist musicians to learn more in-depth information about each dance type by activating the individual dance modal.
 - History page - allows music enthusiasts to read articles about Irish Music by selecting an article using the 'Read More' feature.
 - Contact modal - allows content creators to get in contact with the developer by selecting one of the contact options available in the contact modal.
 
@@ -164,7 +164,7 @@ Once final adjustments are made the project is committed to and submitted.
 
 - MIDI playback tool - Develop a MIDI player which can organise tunes into sets and play them back at desired tempo to practice to.
 - History database - develop a dynamic webpage which automatically organises content in the History page into searchable categories based on topic, date, and popularity.
-- Tune database - develop a system for users to submit their own tunes in a way which will be compatible with the MIDI playback tool, and which will group different settings of the same tune in a simple, elegant fashion.
+- Tune database - develop a system for users to submit their tunes in a way which will be compatible with the MIDI playback tool, and which will group different settings of the same tune in a simple, elegant fashion.
 
 [BACK TO CONTENTS](#Contents)
 
@@ -190,8 +190,8 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 - [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) and [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) are used to create design assets.
 - [Visual Studio Code](https://code.visualstudio.com/) is the main IDE used by the developer for this project.
 - [Adobe Fonts](https://fonts.adobe.com/) is used to select and serve the fonts used in this project.
-- [Adobe Color](https://www.adobe.com/ie/products/color.html) is used to select the color palette used in this project.
-- [Git](https://git-scm.com/) is used for version control in this project. Over the course of the project a Develop branch has been added to the project to allow work to continue on the website without breaking the functioning version on the Master branch.
+- [Adobe Color](https://www.adobe.com/ie/products/color.html) is used to select the colour palette used in this project.
+- [Git](https://git-scm.com/) is used for version control in this project. Throughout the project, a Develop branch has been added to the project to allow work to continue on the website without breaking the functioning version on the Master branch.
 - [Github](https://github.com/) is used as a remote repository for the site, as well as for deployment of the final version.
 - [BrowserStack](https://www.browserstack.com) is used during the testing phase to visualise how the site will render on different browsers.
 
@@ -203,13 +203,13 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 ### Test Process
 
-Testing is carried out at three phases to evaluate the prototypes functionality, the intuitiveness of the design, and finally verify the functionality of the final product.
+Testing is carried out at three phases to evaluate the functionality of the prototype, the intuitiveness of the design, and finally verify the functionality of the final product.
 
 ### Tests Conducted
 
 #### Prototype Functionality Tests
 
-The function of these tests is to verify all links in the prototype lead to the expected locations, so that it is possible to proceed with testing the layout with a new user.
+The function of these tests is to verify all links in the prototype lead to the expected locations so that it is possible to proceed with testing the layout with a new user.
 
 [Prototype functionality tests](https://we.tl/t-lNyKGpBiHT)
 
@@ -221,16 +221,16 @@ The following tasks were set to the user to ensure intuitive layout:
 
 - Find the name of a common dance style listed on the page.
 - Locate information about the Bodhran on the site.
-- Find the name of one important collector in irish music history.
-- From the same section as the previous task, find where it states what genres irish music has had and influence on in music history.
-- Find the link to get in touch with the developer through linkedin (the link will not currently click through).
+- Find the name of one important collector in Irish music history.
+- From the same section as the previous task, find where it states what genres Irish music has had and influence on in music history.
+- Find the link to get in touch with the developer through LinkedIn (the link will not currently click through).
 - Return to the home page from any other page.
 
 [Prototype design tests](https://we.tl/t-akHu55OIfG)
 
 #### Finished Project Tests
 
-The function of these tests is to ensure that the finished project renders in an acceptable fashion on all intended devices. Four sets of tests were completed:
+The function of these tests is to ensure that the finished project renders acceptably on all intended devices. Four sets of tests were completed:
 
 - Validation
 - Modelled Device Testing
@@ -269,7 +269,7 @@ The following device dimensions are tested:
 
 #### Automated Cross Browser Testing
 
-To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on a number of different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the [Browser Automated Testing Chart](testing/testing-charts/browser-automated-testing.png). The following browsers are tested:
+To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on several different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the [Browser Automated Testing Chart](testing/testing-charts/browser-automated-testing.png). The following browsers are tested:
 
 - Mac OS Catalina Chrome 69
 - Mac OS Catalina Chrome 70
@@ -318,20 +318,20 @@ The following insights were gained from the testing process.
 
 #### Prototype Functionality Insights
 
-- Fidil Logo will lead to home page on all pages, not possible in prototype.
-- Hover and click states of all links to be consistent - light color for hover, dark color for click.
-- **Read More** button should have micro interaction for hover and click states.
+- Fidil Logo will lead to the home page on all pages, not possible in the prototype.
+- Hover and click states of all links to be consistent - light colour for hover, dark colour for click.
+- **Read More** button should have micro-interaction for hover and click states.
 - Modal can be closed in multiple ways, this will be retained.
-- External LinkedIn & Github links will be functioning in final developed website.
+- External LinkedIn & Github links will be functioning in the final developed website.
 - Images require standardisation across all layouts at respective resolutions and sizes.
 - Bodhran photo to be corrected on phone layout.
-- Font size on modals to be reduced on phone layout.
+- The font size on modals to be reduced on phone layout.
 
 #### Prototype Design Insights
 
-- Home link not working on web history page, this will be fixed on developed website.
-- Bodhran image has once again reverted to incorrect image on phone layout. Flagged to be fixed.
-- Tendancy for people to go first to header for contact link, then footer. This will be accepted to separate primary navigation from secondary.
+- Home link not working on the web history page, this will be fixed on the developed website.
+- Bodhran image has once again reverted to the incorrect image on phone layout. Flagged to be fixed.
+- The tendency for people to go first to the header for contact link, then footer. This will be accepted to separate primary navigation from secondary.
 - One user reported scrolling to be arduous in their browser, will consider adding a **back to top** button in development.
 
 #### Known Issues
@@ -342,8 +342,8 @@ The following issues have been noted from the Finished Project Tests:
 - Blend modes do not function on Edge 18 and earlier.
 - The website is incompatible with Internet Explorer version 11 and earlier.
 - The Fidil logo becomes unusually large on iPhone Safari in landscape orientation.
-- On screen sizes between Pixel 2 and iPhone X The history page modals create a collision between the longer title and the modal close button.
-- Bootstrap can potentially be removed from this project and the navbar, modals, and custom breakpoints may be delivered using CSS or possible JS. Consider for next update of site.
+- On-screen sizes between Pixel 2 and iPhone X The history page modals create a collision between the longer title and the modal close button.
+- Bootstrap can potentially be removed from this project and the navbar, modals, and custom breakpoints may be delivered using CSS or possible JS. Consider for the next update of the site.
 
 [BACK TO CONTENTS](#Contents)
 
@@ -361,19 +361,19 @@ The following procedure was followed to deploy on Github Pages.
 2. Select the **Settings** tab
 3. Scroll down to the **Github Pages** section
 4. Under the **Source** dropdown, select **Master Branch**
-5. Under **Theme** click **Change Theme** and then click the **Select Theme** button
+5. Under **Theme,** click **Change Theme** and then click the **Select Theme** button
 
 ### Differences between deployed version and development version
 
 A second **Develop** branch also exists in this repository to allow changes and updates to be made to this project without disturbing either the master branch or the live deployment. At the time of submission of this project, both the Master Branch and the Develop Branch are in sync.
 
-The process for updating the project in future will be to make all changes on the Develop branch, or on additional feature branches, and only merge back to the Master Branch once a fully functional version is ready to commit.
+The process for updating the project in future will be to make all changes on the Develop branch, or additional feature branches, and only merge back to the Master Branch once a fully functional version is ready to commit.
 
 ### Cloning a local version
 
 To clone this project locally, complete the following steps:
 
-1. Open a new Command Line Editor on your computer
+1. Open a new Command-Line Editor on your computer
 2. Navigate to the folder you wish to create the local copy of this repo using the `cd` command. e.g. `cd my_directory`
 3. Clone the remote repository using the git clone command. `git clone https://github.com/bryansmullen/fidil`
 4. Open the newly created **fidil** directory in your favourite IDE.
@@ -387,23 +387,24 @@ To clone this project locally, complete the following steps:
 ### Content
 
 The text content from the website was copied from Wikipedia
-[Home Instruments Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
-[Home Dances Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
-[Home History Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
-[Fiddle](https://en.wikipedia.org/wiki/Irish_fiddle)
-[Uilleann Pipes](https://en.wikipedia.org/wiki/Uilleann_pipes)
-[Bodhran](https://en.wikipedia.org/wiki/Bodhr%C3%A1n)
-[Jigs](https://en.wikipedia.org/wiki/Jig)
-[Reels](<https://en.wikipedia.org/wiki/Reel_(dance)>)
-[Hornpipes](https://en.wikipedia.org/wiki/Hornpipe)
-[History 1](https://en.wikipedia.org/wiki/Irish_traditional_music)
-[History 2](https://en.wikipedia.org/wiki/Irish_traditional_music)
+
+- [Home Instruments Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+- [Home Dances Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+- [Home History Card](https://en.wikipedia.org/wiki/Irish_traditional_music)
+- [Fiddle](https://en.wikipedia.org/wiki/Irish_fiddle)
+- [Uilleann Pipes](https://en.wikipedia.org/wiki/Uilleann_pipes)
+- [Bodhran](https://en.wikipedia.org/wiki/Bodhr%C3%A1n)
+- [Jigs](https://en.wikipedia.org/wiki/Jig)
+- [Reels](<https://en.wikipedia.org/wiki/Reel_(dance)>)
+- [Hornpipes](https://en.wikipedia.org/wiki/Hornpipe)
+- [History 1](https://en.wikipedia.org/wiki/Irish_traditional_music)
+- [History 2](https://en.wikipedia.org/wiki/Irish_traditional_music)
 
 This readme file was based on content provided by [Code Institute](https://codeinstitute.net/)
 
 Git template used from second mentor meeting (commit f70d591ab423c5d6c00373b50f65a9cf9422ddc6) onwards adapted from [Chris Beams](https://chris.beams.io/posts/git-commit/)
 
-The svg background pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
+The SVG background pattern was based on a tutorial from [webdesign.tutsplus.com](https://webdesign.tutsplus.com/tutorials/how-to-use-svg-patterns-as-backgrounds--cms-31507) and updated with a customised path.
 
 The customisation of bootstrap navbar toggler breakpoint was adapted from a thread on [stack overflow](https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less)
 
