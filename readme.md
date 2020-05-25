@@ -2,7 +2,7 @@
 
 [View the live project here](https://bryansmullen.github.io/fidil/)
 
-![Banner Image](pre-production/fidil_mockup_banner.jpg)
+![Banner Image](wireframes/pre_production/fidil_mockup_banner.jpg)
 
 **Fidil** is an online Irish Traditional Music resource which delivers content in a bite-sized, aesthetically pleasing manner which appeals to the hobbyist musician.
 
@@ -78,9 +78,9 @@ Design phase goals:
 
 The website is conceived as a resource for hobbyist musicians who want an easy to use, aesthetically pleasing resource for Irish music. The design process is to first create a user profile which is representative of the target user. The following target users are identified:
 
-- [Music Enthusiast](https://github.com/bryansmullen/fidil/blob/master/pre-production/User%20Profiles/user_profile_james.pdf)
-- [Hobbyist Musician](https://github.com/bryansmullen/fidil/blob/master/pre-production/User%20Profiles/user_profile_mark.pdf)
-- [Content Creator](https://github.com/bryansmullen/fidil/blob/master/pre-production/User%20Profiles/user_profile_sarah.pdf)
+- [Music Enthusiast](https://github.com/bryansmullen/fidil/blob/master/wireframes/pre_production/User%20Profiles/user_profile_james.pdf)
+- [Hobbyist Musician](https://github.com/bryansmullen/fidil/blob/master/wireframes/pre_production/User%20Profiles/user_profile_mark.pdf)
+- [Content Creator](https://github.com/bryansmullen/fidil/blob/master/wireframes/pre_production/User%20Profiles/user_profile_sarah.pdf)
 
 ### User Stories
 
@@ -245,11 +245,11 @@ Further to this, all HTML and CSS in this project is validated by using the [W3C
 
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)CSS Validated without errors on 19 May 2020
 
-Results were recorded in the [Validation Testing Chart](testing/testing-charts/validation.png)
+Results were recorded in the [Validation Testing Chart](testing/testing_charts/validation.png)
 
 #### Modelled Device Testing
 
-To test the layout on multiple devices, Google Chrome DevTools is used to simulate the size of multiple devices and screen ratios. Screen responsiveness has been noted to ensure the correct screen ratio was delivered, links are tested by clicking through, images are checked to ensure they displayed correctly on all devices, and the website as a whole is checked to ensure everything renders as expected. Any faults or issues were noted in the [Device Testing Chart](testing/testing-charts/device-compatibility.png)
+To test the layout on multiple devices, Google Chrome DevTools is used to simulate the size of multiple devices and screen ratios. Screen responsiveness has been noted to ensure the correct screen ratio was delivered, links are tested by clicking through, images are checked to ensure they displayed correctly on all devices, and the website as a whole is checked to ensure everything renders as expected. Any faults or issues were noted in the [Device Testing Chart](testing/testing_charts/device_compatibility.png)
 
 The following device dimensions are tested:
 
@@ -269,7 +269,7 @@ The following device dimensions are tested:
 
 #### Automated Cross Browser Testing
 
-To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on several different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the [Browser Automated Testing Chart](testing/testing-charts/browser-automated-testing.png). The following browsers are tested:
+To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on several different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the [Browser Automated Testing Chart](testing/testing_charts/browser_automated_testing.png). The following browsers are tested:
 
 - Mac OS Catalina Chrome 69
 - Mac OS Catalina Chrome 70
@@ -297,7 +297,7 @@ Note that throughout this set of testing all Opera browser testing did not rende
 
 #### Manual Cross Browser Testing
 
-To complement the above results the website is also tested manually on up-to-date browsers available on the developer's machine. The results are once again documented in the [Browser Manual Testing Chart](testing/testing-charts/browser-manual-testing.png)
+To complement the above results the website is also tested manually on up-to-date browsers available on the developer's machine. The results are once again documented in the [Browser Manual Testing Chart](testing/testing_charts/browser_manual_testing.png)
 
 The following browsers are tested:
 
