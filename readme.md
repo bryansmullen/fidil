@@ -12,46 +12,46 @@ While there are already Irish Traditional Music resources available online, many
 
 ## Contents
 
-1. [Contents](#Contents)  
-2. [Project Background](#Project-Background)  
-3. [UX Design](#UX-Design)  
-     - [Goals](#Goals)  
-     - [User Stories](#User-Stories)  
-     - [Wireframes](#Wireframes)  
-     - [Color Palette](#Color-Palette)  
-     - [Typography](#Typography)  
-     - [Imagery](#Imagery)  
-     - [Prototype](#Prototype)  
-     - [Development](#Development)  
-4. [Features](#Features)  
-     - [Existing Features](#Existing-Features)  
-     - [Features Left to Implement](#Features-Left-to-Implement)  
-5. [Technologies Used](#TechnologiesUsed)  
-     - [Languages](#Languages)  
-     - [Libraries](#Libraries)  
-     - [Other Tools](#Other-Tools)  
-6. [Testing](#Testing)  
-     - [Test Process](#Test-Process)  
-     - [Tests Conducted](#Tests-Conducted)  
-       - [Prototype Functionality Tests](#Prototype-Functionality-Tests)  
-       - [Prototype Design Tests](#Prototype-Design-Tests)  
-       - [Finished Project Tests](#Finished-Project-Tests)  
-       - [Validation](#Validation)  
-       - [Modelled Device Testing](#Modelled-Device-Testing)  
-       - [Automated Cross Browser Testing](#Automated-Cross-Browser-Testing)  
-       - [Manual Cross Browser Testing](#Manual-Cross-Browser-Testing)  
-     - [Test Insights](#Test-Insights)  
-       - [Prototype Functionality Insights](#Prototype-Functionality-Insights)  
-       - [Prototype Design Insights](#Prototype-Design-Insights)  
-       - [Known Issues](#Known-Issues)  
-7. [Deployment](#Deployment)  
-     - [Deploying on Github Pages](#Deploying-on-Github-Pages)  
-     - [Differences between deployed version and development version](#Differences-between-deployed-version-and-development-version)  
-     - [Cloning a local version](#Cloning-a-local-version)  
-8. [Credits](#Credits)  
-     - [Content](#Content)  
-     - [Media](#Media)  
-     - [Acknowledgements](#Acknowledgements)  
+1. [Contents](#Contents)
+2. [Project Background](#Project-Background)
+3. [UX Design](#UX-Design)
+   - [Goals](#Goals)
+   - [User Stories](#User-Stories)
+   - [Wireframes](#Wireframes)
+   - [Color Palette](#Color-Palette)
+   - [Typography](#Typography)
+   - [Imagery](#Imagery)
+   - [Prototype](#Prototype)
+   - [Development](#Development)
+4. [Features](#Features)
+   - [Existing Features](#Existing-Features)
+   - [Features Left to Implement](#Features-Left-to-Implement)
+5. [Technologies Used](#TechnologiesUsed)
+   - [Languages](#Languages)
+   - [Libraries](#Libraries)
+   - [Other Tools](#Other-Tools)
+6. [Testing](#Testing)
+   - [Test Process](#Test-Process)
+   - [Tests Conducted](#Tests-Conducted)
+     - [Prototype Functionality Tests](#Prototype-Functionality-Tests)
+     - [Prototype Design Tests](#Prototype-Design-Tests)
+     - [Finished Project Tests](#Finished-Project-Tests)
+     - [Validation](#Validation)
+     - [Modelled Device Testing](#Modelled-Device-Testing)
+     - [Automated Cross Browser Testing](#Automated-Cross-Browser-Testing)
+     - [Manual Cross Browser Testing](#Manual-Cross-Browser-Testing)
+   - [Test Insights](#Test-Insights)
+     - [Prototype Functionality Insights](#Prototype-Functionality-Insights)
+     - [Prototype Design Insights](#Prototype-Design-Insights)
+     - [Known Issues](#Known-Issues)
+7. [Deployment](#Deployment)
+   - [Deploying on Github Pages](#Deploying-on-Github-Pages)
+   - [Differences between deployed version and development version](#Differences-between-deployed-version-and-development-version)
+   - [Cloning a local version](#Cloning-a-local-version)
+8. [Credits](#Credits)
+   - [Content](#Content)
+   - [Media](#Media)
+   - [Acknowledgements](#Acknowledgements)
 
 ## Project Background
 
@@ -176,17 +176,17 @@ In this section, I will mention all of the languages, frameworks, libraries, and
 
 ### Languages
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) is used to render the content of the website.
-- [CSS3](https://www.w3.org/Style/CSS/#specs) is used to style the content of the website.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) is used to render the content of the website.
+- [CSS](https://www.w3.org/Style/CSS/#specs) is used to style the content of the website.
 
 ### Libraries
 
-- [Bootstrap 4.4](https://getbootstrap.com/) is used to aid with the layout and styling of the website, particularly mobile navigation and modals.
+- [Bootstrap](https://getbootstrap.com/) is used to aid with the layout and styling of the website, particularly mobile navigation and modals.
 - [JQuery](https://jquery.com) is used to allow Bootstrap to function.
 
 ### Other Tools
 
-- [Adobe XD](https://www.adobe.com/ie/products/xd.html) waiss used to construct both wireframes and prototypes.
+- [Adobe XD](https://www.adobe.com/ie/products/xd.html) is used to construct both wireframes and prototypes.
 - [Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html) and [Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html) are used to create design assets.
 - [Visual Studio Code](https://code.visualstudio.com/) is the main IDE used by the developer for this project.
 - [Adobe Fonts](https://fonts.adobe.com/) is used to select and serve the fonts used in this project.
@@ -245,9 +245,11 @@ Further to this, all HTML and CSS in this project is validated by using the [W3C
 
 ![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)CSS Validated without errors on 19 May 2020
 
+Results were recorded in the [Validation Testing Chart](testing/testing-charts/validation.png)
+
 #### Modelled Device Testing
 
-To test the layout on multiple devices, Google Chrome DevTools is used to simulate the size of multiple devices and screen ratios. Screen responsiveness has been noted to ensure the correct screen ratio was delivered, links are tested by clicking through, images are checked to ensure they displayed correctly on all devices, and the website as a whole is checked to ensure everything renders as expected. Any faults or issues were noted in the [testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf).
+To test the layout on multiple devices, Google Chrome DevTools is used to simulate the size of multiple devices and screen ratios. Screen responsiveness has been noted to ensure the correct screen ratio was delivered, links are tested by clicking through, images are checked to ensure they displayed correctly on all devices, and the website as a whole is checked to ensure everything renders as expected. Any faults or issues were noted in the [Device Testing Chart](testing/testing-charts/device-compatibility.png)
 
 The following device dimensions are tested:
 
@@ -267,7 +269,7 @@ The following device dimensions are tested:
 
 #### Automated Cross Browser Testing
 
-To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on a number of different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the[testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf). The following browsers are tested:
+To test the layout on multiple browsers, [browserstack](https://www.browserstack.com) is used to screenshot how the layout will render on a number of different versions of major browsers, on the more up-to-date operating systems. These screenshots are then inspected and the results are once again documented in the [Browser Automated Testing Chart](testing/testing-charts/browser-automated-testing.png). The following browsers are tested:
 
 - Mac OS Catalina Chrome 69
 - Mac OS Catalina Chrome 70
@@ -295,7 +297,7 @@ Note that throughout this set of testing all Opera browser testing did not rende
 
 #### Manual Cross Browser Testing
 
-To complement the above results the website is also tested manually on up-to-date browsers available on the developer's machine. The results are once again documented in the[testing spreadsheet](https://github.com/bryansmullen/fidil/blob/master/pre-production/Fidil%20Testing%20Chart.pdf).
+To complement the above results the website is also tested manually on up-to-date browsers available on the developer's machine. The results are once again documented in the [Browser Manual Testing Chart](testing/testing-charts/browser-manual-testing.png)
 
 The following browsers are tested:
 

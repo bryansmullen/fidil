@@ -1,7 +1,7 @@
 marking outline.md
 .DS_Store
-pre-production/construct-files
+pre-production/construct-files/
 pre-production/spec/fidil_spec.pdf
-pre-production/tests
+testing/tests
 .gitmessage.txt
 features-to-add.txt
